@@ -3,7 +3,9 @@ const app = express()
 app.use(express.static('public'));
 const port = 3000;
   var mongodb = require('mongodb');
-var contador = 0;
+  setInterval(function() {
+    http.get("https://isrmicha.herokuapp.com/");
+}, 60000*25); // every 25 minutes
 var db = null;
 var initDb = function(callback) {
   if (mongodb == null) return;
