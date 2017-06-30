@@ -1,7 +1,7 @@
 const express = require('express')
 const app = express()
 app.use(express.static('public'));
-const port = 3000;
+
   var mongodb = require('mongodb');
   setInterval(function() {
     http.get("https://isrmicha.herokuapp.com/");
@@ -38,10 +38,10 @@ initDb(function(err){console.log(err);});
     res.send('Error DB');
   }
 })
+ 
 
 
-
-app.listen(port, function () {
-  console.log('Servidor rodando na porta : '+port);
+app.listen((process.env.PORT || 5000), function () {
+  console.log('Servidor rodando na porta : '+(process.env.PORT || 5000));
 })
 
