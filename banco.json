@@ -1,0 +1,2916 @@
+{
+  "bares" : {
+    "-KPG1Cerdm9sFjRidTkb" : {
+      "atracoes" : {
+        "karaoke" : false,
+        "musica" : false,
+        "sinuca" : false,
+        "wifi" : false
+      },
+      "cardapio" : "img/no-photo.png",
+      "cervejas" : {
+        "antartica" : {
+          "p600ml" : 8.5
+        },
+        "brahma" : {
+          "p600ml" : 8.5
+        }
+      },
+      "dataAtualizacao" : "19102016 00:00:00",
+      "endereco" : "R. Cândido Benício, 1970 - Jacarepagua, Rio de Janeiro - RJ, 21321-800, Brasil",
+      "estacionamento" : false,
+      "estrelas" : 3.8,
+      "geoLat" : -22.8983422,
+      "geoLng" : -43.35301559999999,
+      "idLocal" : "ChIJYTcGaZlimQARxbmVSffiuIA",
+      "nomeBar" : "Choperia Sorvetão",
+      "photoUrl" : [ "https://irs3.4sqi.net/img/general/200x200/9E8ahtNP9xiFHZ-DQWObhNkPQu6N-7qtnuzb9X72oo8.jpg" ],
+      "telefone" : "(21) 2464-0691",
+      "urlGoogle" : "https://maps.google.com/?cid=9275412984288885189",
+      "userId" : "1145408352190021",
+      "userName" : "Lucius Pascale",
+      "userPhoto" : "http://graph.facebook.com/undefined/picture?width=270&height=270",
+      "vip" : 0,
+      "visitas" : {
+        "d2017" : {
+          "d4" : {
+            "d30" : 1
+          },
+          "d5" : {
+            "d11" : 0,
+            "d23" : 0
+          },
+          "d6" : {
+            "d10" : 2,
+            "d11" : 0,
+            "d14" : 1,
+            "d15" : 0,
+            "d17" : 2,
+            "d24" : 0,
+            "d27" : 0,
+            "d9" : 1
+          }
+        }
+      },
+      "votos" : 10,
+      "votosCore" : ",10209541598675284-1"
+    },
+    "-KPG1Cerdm9sFjRidTra" : {
+      "atracoes" : {
+        "karaoke" : true,
+        "musica" : true,
+        "sinuca" : true,
+        "wifi" : true
+      },
+      "bairro" : "Praça Seca - Jacarepagua",
+      "cardapio" : "img/no-photo.png",
+      "cep" : "21321-620",
+      "cervejas" : {
+        "antartica" : {
+          "p1000ml" : 9,
+          "p255ml" : 4,
+          "p350ml" : 5,
+          "p473ml" : 7,
+          "p550ml" : 8,
+          "p600ml" : 8.5
+        },
+        "brahma" : {
+          "p1000ml" : 9.5,
+          "p255ml" : 4,
+          "p350ml" : 6,
+          "p473ml" : 7,
+          "p550ml" : 8,
+          "p600ml" : 8.5
+        },
+        "budweiser" : {
+          "p1000ml" : 10,
+          "p550ml" : 7,
+          "p600ml" : 9
+        }
+      },
+      "dataAtualizacao" : "19102016 00:00:00",
+      "endereco" : "Rua Barão, 437 - Praça Seca, Rio de Janeiro - RJ, 21321-620, Brasil",
+      "estado" : "Rio de Janeiro",
+      "estrelas" : 5,
+      "eventos" : [ {
+        "dataEvento" : {
+          "dataFim" : "30/12/2019",
+          "dataInicio" : "28/12/2019"
+        },
+        "descricao" : "Hoje voce na compra de um drink, o segundo nóis pagamos. Caipirinha, Lagoa Azul, Alexander entre outros, então não esquece vem pra cã.",
+        "estender" : {
+          "diaDaSemana" : "quarta-feira",
+          "repetir" : "sim"
+        },
+        "foto" : [ "http://enigmadrinks.com.br/wp-content/uploads/drinks1.jpg" ],
+        "horario" : {
+          "fim" : "21:00",
+          "inicio" : "16:00"
+        },
+        "nome" : "Dose Dupla de Drinks",
+        "tipo" : "Dose dupla"
+      }, {
+        "dataEvento" : {
+          "dataFim" : "21/08/2019",
+          "dataInicio" : "21/06/2017",
+          "diaDaSemana" : {
+            "domingo" : "false",
+            "quarta" : "false",
+            "quinta" : "false",
+            "sabado" : "false",
+            "segunda" : "false",
+            "sexta" : "true",
+            "terca" : "false"
+          }
+        },
+        "descricao" : "O melhor da musica sertaneja está aqui com a dupla Arlindo e Mariano, venha curtir o melhor...",
+        "foto" : [ "http://www.boadiversao.com.br/midia/image/sextaneja-flyeragosto-boadiversao_10141.jpg" ],
+        "horario" : {
+          "fim" : "23:00",
+          "inicio" : "18:00"
+        },
+        "nome" : "Sextaneja",
+        "tipo" : "Musica ao Vivo"
+      } ],
+      "geoLat" : -22.9014925,
+      "geoLng" : -43.3486535,
+      "idLocal" : "ChIJ-dW2_aFimQARSr77V0cDIUo",
+      "nomeBar" : "Bar do Tio Lucio",
+      "photoUrl" : [ "https://i2.wp.com/quesecueceenbcn.com/wp-content/uploads/2013/09/casa-lucio-que-se-cuece-en-barcelona-bcn-2.jpg", "https://scontent.fsdu8-2.fna.fbcdn.net/v/t1.0-9/18664215_1427359370661583_2722322122512140302_n.jpg?oh=4ecacd635f9561cf565e9a10553beb35&oe=59DF5A36", "https://scontent.fsdu8-2.fna.fbcdn.net/v/t1.0-9/16265561_1301778719886316_1775357636113455088_n.jpg?oh=6e859558c800a6b7ce1e90f042ec6dc6&oe=59ACFBA5" ],
+      "telefone" : "(21) 2164-5371",
+      "uf" : "RJ",
+      "userId" : "1145408352190021",
+      "userName" : "Lucius Pascale",
+      "userPhoto" : "https://scontent.fsdu7-1.fna.fbcdn.net/v/t1.0-9/1797409_697073077023553_6049273905525832151_n.jpg?oh=e2d022a2d133a5ee466d9cb5abb4f973&oe=59A50709",
+      "vip" : 1,
+      "visitas" : {
+        "d2017" : {
+          "d4" : {
+            "d30" : 1
+          },
+          "d5" : {
+            "d18" : 1,
+            "d23" : 0,
+            "d9" : 0
+          },
+          "d6" : {
+            "d17" : 1,
+            "d19" : 3,
+            "d24" : 7,
+            "d27" : 2,
+            "d28" : 4
+          }
+        }
+      },
+      "votos" : 100
+    },
+    "-KPIs_N0Krgf9txm-db1" : {
+      "atracoes" : {
+        "karaoke" : false,
+        "musica" : true,
+        "sinuca" : false,
+        "wifi" : false
+      },
+      "cardapio" : "img/no-photo.png",
+      "cervejas" : {
+        "antartica" : {
+          "p600ml" : 8.5
+        }
+      },
+      "dataAtualizacao" : "19102016 00:00:00",
+      "endereco" : "Estrada Intendente Magalhães, 378 - Madureira, Rio de Janeiro - RJ, 21341-332, Brasil",
+      "estrelas" : 4.1,
+      "geoLat" : -22.8812885,
+      "geoLng" : -43.350984600000004,
+      "idLocal" : "ChIJVVVxKupimQAROFgkFiR7ES0",
+      "karaoke" : false,
+      "musica" : true,
+      "nomeBar" : "Barril 8000 (Valqueire)",
+      "photoUrl" : [ "https://scontent.fsdu8-2.fna.fbcdn.net/v/t1.0-9/13092110_1714367135471667_6785025842665302953_n.jpg?oh=b4fa9153e79f67599297ec31f2b5eef1&oe=5920FFDF" ],
+      "precoAnt1000" : "0",
+      "precoAnt600" : "8.50",
+      "precoBra1000" : "0",
+      "precoBra600" : "0",
+      "precoIta1000" : "0",
+      "precoIta600" : "0",
+      "precoSkol1000" : "0",
+      "precoSkol600" : "0",
+      "sinuca" : false,
+      "telefone" : "(21) 3586-1319",
+      "urlGoogle" : "https://maps.google.com/?cid=3247512201231358008",
+      "userId" : "1145408352190021",
+      "userName" : "Lucius Pascale",
+      "userPhoto" : "http://graph.facebook.com/undefined/picture?width=270&height=270",
+      "vip" : 0,
+      "visitas" : {
+        "d2017" : {
+          "d5" : {
+            "d10" : 0,
+            "d11" : 0,
+            "d12" : 0,
+            "d13" : 1,
+            "d14" : 1,
+            "d15" : 5,
+            "d17" : 1,
+            "d18" : 5,
+            "d20" : 0,
+            "d22" : 0,
+            "d23" : 0,
+            "d24" : 0,
+            "d25" : 0,
+            "d26" : 0,
+            "d3" : 1,
+            "d4" : 3,
+            "d9" : 2
+          },
+          "d6" : {
+            "d17" : 0,
+            "d27" : 0,
+            "d5" : 0,
+            "d6" : 0
+          }
+        }
+      },
+      "votos" : 0,
+      "votosCore" : ""
+    },
+    "-KPTbJXB8wUMnRmopSrb" : {
+      "atracoes" : {
+        "karaoke" : false,
+        "musica" : false,
+        "sinuca" : false,
+        "wifi" : false
+      },
+      "cardapio" : "img/no-photo.png",
+      "cervejas" : {
+        "antartica" : {
+          "p600ml" : 7.5
+        },
+        "brahma" : {
+          "p600ml" : 7.5
+        }
+      },
+      "d2017" : {
+        "d4" : {
+          "d28" : 1
+        }
+      },
+      "dataAtualizacao" : "19102016 00:00:00",
+      "endereco" : "Rua Barão, 563 - Praça Seca, Rio de Janeiro - RJ, 21321-620, Brasil",
+      "estacionamento" : false,
+      "estrelas" : 0,
+      "geoLat" : -22.900972,
+      "geoLng" : -43.34944889999997,
+      "idLocal" : "ChIJOz40TZ9imQARSS4pwq6upqM",
+      "karaoke" : false,
+      "musica" : false,
+      "nomeBar" : "Bar Higiene Mental",
+      "photoUrl" : [ "https://scontent.fsdu8-2.fna.fbcdn.net/v/t1.0-9/10891785_786267494742122_6211454436102598700_n.jpg?oh=b296c7b2b0cb2c0327608abf728e06d6&oe=5923F684" ],
+      "precoAnt1000" : "0",
+      "precoAnt600" : "7.50",
+      "precoBra1000" : "0",
+      "precoBra600" : "7.50",
+      "precoIta1000" : "0",
+      "precoIta600" : "0",
+      "precoSkol1000" : "0",
+      "precoSkol600" : "0",
+      "sinuca" : false,
+      "telefone" : "Indefinido",
+      "urlGoogle" : "https://maps.google.com/?cid=11792304739921243721",
+      "userId" : "1145408352190021",
+      "userName" : "Lucius Pascale",
+      "userPhoto" : "http://graph.facebook.com/undefined/picture?width=270&height=270",
+      "vip" : 0,
+      "visitas" : {
+        "d2017" : {
+          "d4" : {
+            "d29" : 1
+          },
+          "d5" : {
+            "d23" : 0,
+            "d26" : 2
+          },
+          "d6" : {
+            "d24" : 1
+          }
+        }
+      },
+      "votos" : 0,
+      "votosCore" : ""
+    },
+    "-KPU2XpT_-ZfQEyPOo3Q" : {
+      "atracoes" : {
+        "karaoke" : false,
+        "musica" : true,
+        "sinuca" : false,
+        "wifi" : false
+      },
+      "cardapio" : "img/no-photo.png",
+      "cervejas" : {
+        "antartica" : {
+          "p600ml" : 7.9
+        }
+      },
+      "dataAtualizacao" : "19102016 00:00:00",
+      "endereco" : "Estr. dos Bandeirantes, 7852 - Jacarepagua, Rio de Janeiro - RJ, 22780-084, Brasil",
+      "estacionamento" : false,
+      "estrelas" : 3.2,
+      "geoLat" : -22.9676817,
+      "geoLng" : -43.41337540000001,
+      "idLocal" : "ChIJQbd0pAXcmwARyG4tnpNo0HY",
+      "karaoke" : false,
+      "musica" : true,
+      "nomeBar" : "Vovô Tino Bar e Restaurante",
+      "photoUrl" : [ "https://scontent.fsdu8-2.fna.fbcdn.net/v/t1.0-9/10929909_788820367877560_1768427771241293798_n.jpg?oh=60aa9b44e7c01edba3b4a99c6bcbb5ef&oe=58E4EC70" ],
+      "precoAnt1000" : "0",
+      "precoAnt600" : "7.90",
+      "precoBra1000" : "0",
+      "precoBra600" : "0",
+      "precoIta1000" : "0",
+      "precoIta600" : "0",
+      "precoSkol1000" : "0",
+      "precoSkol600" : "0",
+      "sinuca" : false,
+      "telefone" : "(21) 2441-3133",
+      "urlGoogle" : "https://maps.google.com/?cid=8561457874854571720",
+      "userId" : "1145408352190021",
+      "userName" : "Lucius Pascale",
+      "userPhoto" : "http://graph.facebook.com/undefined/picture?width=270&height=270",
+      "vip" : 0,
+      "visitas" : {
+        "d2017" : {
+          "d5" : {
+            "d15" : 1,
+            "d3" : 1,
+            "d31" : 0,
+            "d9" : 0
+          }
+        }
+      },
+      "votos" : 0,
+      "votosCore" : ""
+    },
+    "-KPU3kPAwaJwFPciqHc7" : {
+      "atracoes" : {
+        "karaoke" : false,
+        "musica" : false,
+        "sinuca" : false,
+        "wifi" : false
+      },
+      "cardapio" : "img/no-photo.png",
+      "cervejas" : {
+        "brahma" : {
+          "p600ml" : 17.8
+        },
+        "skol" : {
+          "p600ml" : 17.8
+        }
+      },
+      "dataAtualizacao" : "19102016 00:00:00",
+      "endereco" : "Av. Marechal Henrique Lott, 120 - Barra da Tijuca, Rio de Janeiro - RJ, 22631-370, Brasil",
+      "estacionamento" : false,
+      "estrelas" : 0,
+      "geoLat" : -23.002524,
+      "geoLng" : -43.350121,
+      "idLocal" : "ChIJBRhDPUDamwARoom-LNzXnbo",
+      "karaoke" : false,
+      "musica" : false,
+      "nomeBar" : "Nó de Corda",
+      "photoUrl" : [ "https://scontent.fsdu8-2.fna.fbcdn.net/v/t1.0-9/12243010_1024820604245493_6096397670161001169_n.jpg?oh=aa8f869d7b6b477e2c0ffb6569632a11&oe=59197E5C" ],
+      "precoAnt1000" : "17.80",
+      "precoAnt600" : 0,
+      "precoBra1000" : "17.80",
+      "precoBra600" : "0",
+      "precoIta1000" : "0",
+      "precoIta600" : "0",
+      "precoSkol1000" : "17.80",
+      "precoSkol600" : "0",
+      "sinuca" : false,
+      "telefone" : "(21) 3387-1104",
+      "urlGoogle" : "https://maps.google.com/?cid=13447141403041630626",
+      "userId" : "1145408352190021",
+      "userName" : "Lucius Pascale",
+      "userPhoto" : "http://graph.facebook.com/undefined/picture?width=270&height=270",
+      "vip" : 0,
+      "visitas" : {
+        "d2017" : {
+          "d4" : {
+            "d28" : 0
+          }
+        }
+      },
+      "votos" : 0,
+      "votosCore" : ""
+    },
+    "-KPU5mpZaKWAiekxgXt7" : {
+      "atracoes" : {
+        "karaoke" : false,
+        "musica" : false,
+        "sinuca" : false,
+        "wifi" : false
+      },
+      "cardapio" : "img/no-photo.png",
+      "cervejas" : {
+        "antartica" : {
+          "p600ml" : 7.5
+        }
+      },
+      "dataAtualizacao" : "19102016 00:00:00",
+      "endereco" : "Rua Doutor Bernardino, 92 - Praça Seca, Rio de Janeiro - RJ, Brasil",
+      "estacionamento" : false,
+      "estrelas" : 0,
+      "geoLat" : -22.8957608,
+      "geoLng" : -43.3492411,
+      "idLocal" : "ChIJh0NK-pdimQARuwfmN0Cy1Ac",
+      "karaoke" : false,
+      "musica" : false,
+      "nomeBar" : "Bar 100 Da Bola",
+      "photoUrl" : [ "img/no-photo.png" ],
+      "precoAnt1000" : 0,
+      "precoAnt600" : "7.50",
+      "precoBra1000" : "0,00",
+      "precoBra600" : "0",
+      "precoIta1000" : "0",
+      "precoIta600" : "0",
+      "precoSkol1000" : 0,
+      "precoSkol600" : "0",
+      "sinuca" : false,
+      "telefone" : "Indefinido",
+      "urlGoogle" : "https://maps.google.com/?cid=564271842213627835",
+      "userId" : "1145408352190021",
+      "userName" : "Lucius Pascale",
+      "userPhoto" : "http://graph.facebook.com/undefined/picture?width=270&height=270",
+      "vip" : 0,
+      "visitas" : {
+        "d2017" : {
+          "d4" : {
+            "d28" : 1
+          },
+          "d6" : {
+            "d28" : 1
+          }
+        }
+      },
+      "votos" : 0,
+      "votosCore" : ""
+    },
+    "-KPU661FE6EAmMy3lQS5" : {
+      "atracoes" : {
+        "karaoke" : false,
+        "musica" : false,
+        "sinuca" : true,
+        "wifi" : false
+      },
+      "cardapio" : "img/no-photo.png",
+      "cervejas" : {
+        "antartica" : {
+          "p600ml" : 8
+        },
+        "brahma" : {
+          "p600ml" : 8
+        }
+      },
+      "dataAtualizacao" : "19102016 00:00:00",
+      "endereco" : "R. Cândido Benício, 973 - Praça Seca, Rio de Janeiro - RJ, 21321-802, Brasil",
+      "estacionamento" : false,
+      "estrelas" : 4,
+      "geoLat" : -22.8911093,
+      "geoLng" : -43.3474092,
+      "idLocal" : "ChIJkasKa75imQARi1QLE7Xubnc",
+      "karaoke" : false,
+      "musica" : false,
+      "nomeBar" : "Pit Stop Snooker Bar",
+      "photoUrl" : [ "https://scontent.fsdu8-2.fna.fbcdn.net/v/t1.0-9/13607012_1071094992928239_3827794095307114972_n.jpg?oh=bed254b671feabd807f1e42f11aaa4c3&oe=58E60556" ],
+      "precoAnt1000" : "10.00",
+      "precoAnt600" : "8.00",
+      "precoBra1000" : "10.00",
+      "precoBra600" : "8.00",
+      "precoIta1000" : "0",
+      "precoIta600" : "0",
+      "precoSkol1000" : 0,
+      "precoSkol600" : "0",
+      "sinuca" : true,
+      "telefone" : "(21) 3520-0132",
+      "urlGoogle" : "https://maps.google.com/?cid=8606078399427597451",
+      "userId" : "1145408352190021",
+      "userName" : "Lucius Pascale",
+      "userPhoto" : "http://graph.facebook.com/undefined/picture?width=270&height=270",
+      "vip" : 0,
+      "visitas" : {
+        "d2017" : {
+          "d4" : {
+            "d30" : 1
+          }
+        }
+      },
+      "votos" : 0,
+      "votosCore" : ""
+    },
+    "-KPU6PP8D1xR0_ft4fx-" : {
+      "atracoes" : {
+        "karaoke" : false,
+        "musica" : false,
+        "sinuca" : false,
+        "wifi" : false
+      },
+      "cardapio" : "img/no-photo.png",
+      "cervejas" : {
+        "antartica" : {
+          "p600ml" : 6.5
+        },
+        "brahma" : {
+          "p600ml" : 6.5
+        }
+      },
+      "dataAtualizacao" : "19102016 00:00:00",
+      "endereco" : "R. Cap. Menezes, 271 - Praça Seca, Rio de Janeiro - RJ, 21320-040, Brasil",
+      "estacionamento" : false,
+      "estrelas" : 0,
+      "geoLat" : -22.8947248,
+      "geoLng" : -43.3442321,
+      "idLocal" : "ChIJj2kwP7ximQARygCSLcEjKpg",
+      "karaoke" : false,
+      "musica" : false,
+      "nomeBar" : "Bar e Mercearia Flor do Japura",
+      "photoUrl" : [ "https://lh5.googleusercontent.com/-J4zXQZFVXfI/V5RDvVnwleI/AAAAAAAAB-E/wpn9ZuBjVdE6YSkQ1CZcadie-9-S6BpSACLIB/w400-h400-k/" ],
+      "precoAnt1000" : 0,
+      "precoAnt600" : "6.50",
+      "precoBra1000" : 0,
+      "precoBra600" : "6.50",
+      "precoIta1000" : "0",
+      "precoIta600" : "0",
+      "precoSkol1000" : 0,
+      "precoSkol600" : "0",
+      "sinuca" : false,
+      "telefone" : "Indefinido",
+      "urlGoogle" : "https://maps.google.com/?cid=10964615555387097290",
+      "userId" : "1145408352190021",
+      "userName" : "Lucius Pascale",
+      "userPhoto" : "http://graph.facebook.com/undefined/picture?width=270&height=270",
+      "vip" : 0,
+      "visitas" : {
+        "d2017" : {
+          "d4" : {
+            "d30" : 4
+          },
+          "d6" : {
+            "d14" : 0,
+            "d16" : 0,
+            "d19" : 0
+          }
+        }
+      },
+      "votos" : 0,
+      "votosCore" : ""
+    },
+    "-KPVTWwlWHiADXmuBLoA" : {
+      "atracoes" : {
+        "karaoke" : false,
+        "musica" : false,
+        "sinuca" : false,
+        "wifi" : false
+      },
+      "cardapio" : "img/no-photo.png",
+      "cervejas" : {
+        "brahma" : {
+          "p600ml" : 6.5
+        }
+      },
+      "dataAtualizacao" : "19102016 00:00:00",
+      "endereco" : "Av. Dom Hélder Câmara, 10227 - Cascadura, Rio de Janeiro - RJ, 21380-010, Brasil",
+      "estacionamento" : false,
+      "estrelas" : 0,
+      "geoLat" : -22.882077,
+      "geoLng" : -43.325691000000006,
+      "idLocal" : "ChIJyU9_Nyx9mQARlRLmkWHH2vY",
+      "karaoke" : false,
+      "musica" : false,
+      "nomeBar" : "Bar 24 horas",
+      "photoUrl" : [ "img/no-photo.png" ],
+      "precoAnt1000" : "6.50",
+      "precoAnt600" : 0,
+      "precoBra1000" : "6.50",
+      "precoBra600" : 0,
+      "precoIta1000" : 0,
+      "precoIta600" : 0,
+      "precoSkol1000" : 0,
+      "precoSkol600" : 0,
+      "sinuca" : false,
+      "telefone" : "(21) 99371-3431",
+      "urlGoogle" : "https://maps.google.com/?cid=17787748900126724757",
+      "userId" : "1145408352190021",
+      "userName" : "Lucius Pascale",
+      "userPhoto" : "http://graph.facebook.com/undefined/picture?width=270&height=270",
+      "vip" : 0,
+      "visitas" : {
+        "d2017" : {
+          "d4" : {
+            "d28" : 0
+          }
+        }
+      },
+      "votos" : 0,
+      "votosCore" : ""
+    },
+    "-KPZqrlU6lT-DN6WxB6h" : {
+      "atracoes" : {
+        "karaoke" : true,
+        "musica" : true,
+        "sinuca" : true,
+        "wifi" : false
+      },
+      "cardapio" : "img/no-photo.png",
+      "cervejas" : {
+        "antartica" : {
+          "p600ml" : 7.5
+        },
+        "brahma" : {
+          "p600ml" : 6.5
+        }
+      },
+      "dataAtualizacao" : "19102016 00:00:00",
+      "endereco" : "Av. Eng. Richard, 105 - Loja A - Grajau, Rio de Janeiro - RJ, 20561-092, Brasil",
+      "estacionamento" : false,
+      "estrelas" : 4.2,
+      "geoLat" : -22.9218878,
+      "geoLng" : -43.262360599999965,
+      "idLocal" : "ChIJM6y4Qu99mQARDQUhj4GbjFk",
+      "karaoke" : true,
+      "musica" : true,
+      "nomeBar" : "Bar do Adão (Grajau)",
+      "photoUrl" : [ "img/no-photo.png" ],
+      "precoAnt1000" : 0,
+      "precoAnt600" : "7.50",
+      "precoBra1000" : 0,
+      "precoBra600" : 7.5,
+      "precoIta1000" : 0,
+      "precoIta600" : 6.5,
+      "precoSkol1000" : 0,
+      "precoSkol600" : 0,
+      "sinuca" : true,
+      "telefone" : "(21) 2577-0730",
+      "urlGoogle" : "https://maps.google.com/?cid=6452703346869470477",
+      "userId" : "10209541598675284",
+      "userName" : "Israel Neves",
+      "userPhoto" : "http://graph.facebook.com/undefined/picture?width=270&height=270",
+      "vip" : 0,
+      "visitas" : {
+        "d2017" : {
+          "d4" : {
+            "d28" : 0
+          },
+          "d6" : {
+            "d15" : 0,
+            "d16" : 7,
+            "d18" : 1,
+            "d20" : 0,
+            "d21" : 0,
+            "d24" : 8,
+            "d27" : 0
+          }
+        }
+      },
+      "votos" : 1,
+      "votosCore" : ",10209541598675284-1"
+    },
+    "-KP_WAnbwnZfwG-MIzuL" : {
+      "atracoes" : {
+        "karaoke" : false,
+        "musica" : false,
+        "sinuca" : false,
+        "wifi" : false
+      },
+      "cardapio" : "img/no-photo.png",
+      "dataAtualizacao" : "19102016 00:00:00",
+      "endereco" : "Rua Galdino Pimentel, 27 - Meier, Rio de Janeiro - RJ, 20735-260, Brasil",
+      "estacionamento" : false,
+      "estrelas" : 4,
+      "geoLat" : -22.9040665,
+      "geoLng" : -43.28747920000001,
+      "idLocal" : "ChIJOTuwFaF9mQAR4ZRA9cDIZ3s",
+      "karaoke" : false,
+      "musica" : false,
+      "nomeBar" : "Bar do Adão (Meier)",
+      "photoUrl" : [ "https://lh6.googleusercontent.com/-wqw1v-OeZrw/V2x8ptWV3eI/AAAAAAAAr5E/YZxrB-YgyDk8tibBsEh3vZcFzpFO76tYgCLIB/w400-h400-k/" ],
+      "precoAnt1000" : 0,
+      "precoAnt600" : 0,
+      "precoBra1000" : 0,
+      "precoBra600" : 0,
+      "precoIta1000" : 0,
+      "precoIta600" : 0,
+      "precoSkol1000" : 0,
+      "precoSkol600" : 0,
+      "sinuca" : false,
+      "telefone" : "(21) 3283-8086",
+      "urlGoogle" : "https://maps.google.com/?cid=8892296720340260065",
+      "userId" : "1047639355285217",
+      "userName" : "Josi Areia",
+      "userPhoto" : "http://graph.facebook.com/undefined/picture?width=270&height=270",
+      "vip" : 0,
+      "visitas" : {
+        "d2017" : {
+          "d4" : {
+            "d28" : 0
+          }
+        }
+      },
+      "votos" : 0,
+      "votosCore" : ""
+    },
+    "-KP_WXn71hFzgHTeeqpJ" : {
+      "atracoes" : {
+        "karaoke" : false,
+        "musica" : false,
+        "sinuca" : false,
+        "wifi" : false
+      },
+      "cardapio" : "img/no-photo.png",
+      "dataAtualizacao" : "19102016 00:00:00",
+      "endereco" : "R. Dias da Cruz, 394 - Meier, Rio de Janeiro - RJ, 20720-012, Brasil",
+      "estacionamento" : false,
+      "estrelas" : 4.4,
+      "geoLat" : -22.9042134,
+      "geoLng" : -43.28718559999999,
+      "idLocal" : "ChIJGZoqFaF9mQARWI8MbvxRu6k",
+      "karaoke" : false,
+      "musica" : false,
+      "nomeBar" : "Choperia Cometa Express",
+      "photoUrl" : [ "https://scontent.fsdu8-2.fna.fbcdn.net/v/t1.0-9/11262999_807225789373356_652376999039117580_n.png?oh=d31678dcfc457c036b799fcf960f334b&oe=59138697" ],
+      "precoAnt1000" : 0,
+      "precoAnt600" : 0,
+      "precoBra1000" : 0,
+      "precoBra600" : 0,
+      "precoIta1000" : 0,
+      "precoIta600" : 0,
+      "precoSkol1000" : 0,
+      "precoSkol600" : 0,
+      "sinuca" : false,
+      "telefone" : "(21) 2595-1298",
+      "urlGoogle" : "https://maps.google.com/?cid=12230459357674639192",
+      "userId" : "1047639355285217",
+      "userName" : "Josi Areia",
+      "userPhoto" : "http://graph.facebook.com/undefined/picture?width=270&height=270",
+      "vip" : 0,
+      "visitas" : {
+        "d2017" : {
+          "d4" : {
+            "d28" : 0
+          }
+        }
+      },
+      "votos" : 0,
+      "votosCore" : ""
+    },
+    "-KP__MePLB7CfTNXjLzU" : {
+      "atracoes" : {
+        "karaoke" : false,
+        "musica" : true,
+        "sinuca" : false,
+        "wifi" : false
+      },
+      "cardapio" : "img/no-photo.png",
+      "dataAtualizacao" : "19102016 00:00:00",
+      "endereco" : "Rua Adolfo Bergamini, 371 - Meier, Rio de Janeiro - RJ, 20730-971, Brasil",
+      "estacionamento" : false,
+      "estrelas" : 3.9,
+      "geoLat" : -22.9038117,
+      "geoLng" : -43.29694979999999,
+      "idLocal" : "ChIJYbia1qTQmwAR7kUUqrvlp-Y",
+      "karaoke" : false,
+      "musica" : true,
+      "nomeBar" : "Barril 8000 Méier",
+      "photoUrl" : [ "https://scontent.fsdu8-2.fna.fbcdn.net/v/t1.0-9/14237600_1630426187249009_3427128780029691674_n.jpg?oh=83f91d8827c7476b822a499632270370&oe=58E19568" ],
+      "precoAnt1000" : 0,
+      "precoAnt600" : 0,
+      "precoBra1000" : 0,
+      "precoBra600" : 0,
+      "precoIta1000" : 0,
+      "precoIta600" : 0,
+      "precoSkol1000" : 0,
+      "precoSkol600" : 0,
+      "sinuca" : false,
+      "telefone" : "(21) 3153-7740",
+      "urlGoogle" : "https://maps.google.com/?cid=16620505544009205230",
+      "userId" : "1045719578796924",
+      "userName" : "Roberto Junior",
+      "userPhoto" : "http://graph.facebook.com/undefined/picture?width=270&height=270",
+      "vip" : 0,
+      "visitas" : {
+        "d2017" : {
+          "d4" : {
+            "d28" : 0
+          }
+        }
+      },
+      "votos" : 0,
+      "votosCore" : ""
+    },
+    "-KPcl1mEHRfkz2F1Z-iS" : {
+      "atracoes" : {
+        "karaoke" : false,
+        "musica" : false,
+        "sinuca" : false,
+        "wifi" : false
+      },
+      "cardapio" : "img/no-photo.png",
+      "cervejas" : {
+        "antartica" : {
+          "p600ml" : 8.5
+        }
+      },
+      "dataAtualizacao" : "19102016 00:00:00",
+      "endereco" : "R. Ten. Cerqueira Leite - Meier, Rio de Janeiro - RJ, Brasil",
+      "estacionamento" : false,
+      "estrelas" : 0,
+      "geoLat" : -22.9007009,
+      "geoLng" : -43.279419399999995,
+      "idLocal" : "ChIJl1tdnbp9mQARmVOCtwr99YA",
+      "karaoke" : false,
+      "musica" : false,
+      "nomeBar" : "Bar do Sardinha",
+      "photoUrl" : [ "https://0.kekantoimg.com/XTEQeF_wJaCVpMHpDJdA1DT9sgc=/fit-in/600x600/s3.amazonaws.com/kekanto_pics/pics/680/322680.jpg" ],
+      "precoAnt1000" : 0,
+      "precoAnt600" : "8.50",
+      "precoBra1000" : 0,
+      "precoBra600" : 0,
+      "precoIta1000" : 0,
+      "precoIta600" : 0,
+      "precoSkol1000" : "0",
+      "precoSkol600" : 0,
+      "sinuca" : false,
+      "telefone" : "Indefinido",
+      "urlGoogle" : "https://maps.google.com/?cid=9292611628619158425",
+      "userId" : "1045719578796924",
+      "userName" : "Roberto Junior",
+      "userPhoto" : "http://graph.facebook.com/undefined/picture?width=270&height=270",
+      "vip" : 0,
+      "visitas" : {
+        "d2017" : {
+          "d4" : {
+            "d28" : 0
+          },
+          "d6" : {
+            "d14" : 7,
+            "d16" : 2,
+            "d18" : 0,
+            "d20" : 0,
+            "d27" : 2,
+            "d29" : 1
+          }
+        }
+      },
+      "votos" : 1,
+      "votosCore" : ",10209541598675284-1"
+    },
+    "-KQ1pVUHOIs3nRNb1Lg4" : {
+      "atracoes" : {
+        "karaoke" : false,
+        "musica" : false,
+        "sinuca" : false,
+        "wifi" : false
+      },
+      "cardapio" : "img/no-photo.png",
+      "cervejas" : {
+        "antartica" : {
+          "p600ml" : 7
+        },
+        "brahma" : {
+          "p600ml" : 6
+        },
+        "skol" : {
+          "p600ml" : 6
+        }
+      },
+      "dataAtualizacao" : "19102016 00:00:00",
+      "endereco" : "R. Gustavo Sampaio, 476 - Leme, Rio de Janeiro - RJ, 22010-010, Brasil",
+      "estacionamento" : false,
+      "estrelas" : 0,
+      "geoLat" : -22.96255499999999,
+      "geoLng" : -43.170094000000006,
+      "idLocal" : "ChIJhRtLNQGAmQAR-zzNH6R5sAI",
+      "karaoke" : false,
+      "musica" : false,
+      "nomeBar" : "Café e Bar São Francisco",
+      "photoUrl" : [ "img/no-photo.png" ],
+      "precoAnt1000" : 0,
+      "precoAnt600" : "7.00",
+      "precoBra1000" : 0,
+      "precoBra600" : "6.50",
+      "precoIta1000" : 0,
+      "precoIta600" : "6.00",
+      "precoSkol1000" : 0,
+      "precoSkol600" : "6.00",
+      "sinuca" : false,
+      "telefone" : "(21) 2275-0598",
+      "urlGoogle" : "https://maps.google.com/?cid=193788529792072955",
+      "userId" : "1145408352190021",
+      "userName" : "Lucius Pascale",
+      "userPhoto" : "http://graph.facebook.com/undefined/picture?width=270&height=270",
+      "vip" : 0,
+      "visitas" : {
+        "d2017" : {
+          "d4" : {
+            "d30" : 3
+          }
+        }
+      },
+      "votos" : 1,
+      "votosCore" : ",10209541598675284-1"
+    },
+    "-KQCcNgYg-FSTaTp0LNX" : {
+      "atracoes" : {
+        "karaoke" : false,
+        "musica" : false,
+        "sinuca" : false,
+        "wifi" : false
+      },
+      "cardapio" : "img/no-photo.png",
+      "cervejas" : {
+        "antartica" : {
+          "p600ml" : 7
+        },
+        "brahma" : {
+          "p600ml" : 7
+        },
+        "skol" : {
+          "p600ml" : 6.5
+        }
+      },
+      "dataAtualizacao" : "19102016 00:00:00",
+      "endereco" : "R. Florianópolis, 1481 - Praça Seca, Rio de Janeiro - RJ, 21321-054, Brasil",
+      "estacionamento" : false,
+      "estrelas" : 3.7,
+      "geoLat" : -22.90191099999999,
+      "geoLng" : -43.351721999999995,
+      "idLocal" : "ChIJoW9j-p5imQARLQXS4TnTSeM",
+      "karaoke" : false,
+      "musica" : false,
+      "nomeBar" : "Pizoni's Bar e Pizzaria ",
+      "photoUrl" : [ "https://scontent.fsdu8-2.fna.fbcdn.net/v/t1.0-9/11140279_860807013966430_4564266321191785521_n.jpg?oh=19152b786ac17b4940725c84ca29e2e4&oe=58D8A2FA" ],
+      "precoAnt1000" : "9.00",
+      "precoAnt600" : "7.00",
+      "precoBra1000" : "9.00",
+      "precoBra600" : "7.00",
+      "precoIta1000" : 0,
+      "precoIta600" : 0,
+      "precoSkol1000" : 0,
+      "precoSkol600" : "6.50",
+      "sinuca" : false,
+      "telefone" : "(21) 3092-6651",
+      "urlGoogle" : "https://maps.google.com/?cid=16377853765464753453",
+      "userId" : "1145408352190021",
+      "userName" : "Lucius Pascale",
+      "userPhoto" : "http://graph.facebook.com/undefined/picture?width=270&height=270",
+      "vip" : 0,
+      "visitas" : {
+        "d2017" : {
+          "d4" : {
+            "d30" : 2
+          }
+        }
+      },
+      "votos" : 0,
+      "votosCore" : ""
+    },
+    "-KQfZSec5aa5txp-RncP" : {
+      "atracoes" : {
+        "karaoke" : false,
+        "musica" : false,
+        "sinuca" : false,
+        "wifi" : false
+      },
+      "cardapio" : "img/no-photo.png",
+      "cervejas" : {
+        "antartica" : {
+          "p600ml" : 7.5
+        },
+        "brahma" : {
+          "p600ml" : 6.5
+        },
+        "skol" : {
+          "p600ml" : 7.5
+        }
+      },
+      "dataAtualizacao" : "19102016 00:00:00",
+      "endereco" : "R. Bambina, 180 - C - Botafogo, Rio de Janeiro - RJ, 22251-050, Brasil",
+      "estacionamento" : false,
+      "estrelas" : 4,
+      "geoLat" : -22.9491828,
+      "geoLng" : -43.185965099999976,
+      "idLocal" : "ChIJZy6CtO9_mQARoMpd5gAxxYw",
+      "karaoke" : false,
+      "musica" : false,
+      "nomeBar" : "Bar do Italiano",
+      "photoUrl" : [ "https://lh3.googleusercontent.com/-tyPgo1dm00Y/VztW82WkiQI/AAAAAAAAAA8/qJdSqL6QD4MsHPTI0UDlIliyAGDpdNaBQCLIB/w400-h400-k/" ],
+      "precoAnt1000" : 0,
+      "precoAnt600" : "7.50",
+      "precoBra1000" : 0,
+      "precoBra600" : "7.50",
+      "precoIta1000" : 0,
+      "precoIta600" : "6.50",
+      "precoSkol1000" : 0,
+      "precoSkol600" : "7.50",
+      "sinuca" : false,
+      "telefone" : "(21) 2286-6397",
+      "urlGoogle" : "https://maps.google.com/?cid=10143567615656577696",
+      "userId" : "1145408352190021",
+      "userName" : "Lucius Pascale",
+      "userPhoto" : "http://graph.facebook.com/undefined/picture?width=270&height=270",
+      "vip" : 0,
+      "visitas" : {
+        "d2017" : {
+          "d4" : {
+            "d28" : 1
+          }
+        }
+      },
+      "votos" : 0,
+      "votosCore" : ""
+    },
+    "-KQf_3cUmJeKJ4n_si2E" : {
+      "atracoes" : {
+        "karaoke" : false,
+        "musica" : false,
+        "sinuca" : false,
+        "wifi" : false
+      },
+      "cardapio" : "img/no-photo.png",
+      "cervejas" : {
+        "antartica" : {
+          "p600ml" : 10
+        },
+        "brahma" : {
+          "p600ml" : 9.9
+        }
+      },
+      "dataAtualizacao" : "19102016 00:00:00",
+      "endereco" : "R. São Clemente, 98 - Loja 2 e 3 - Botafogo, Rio de Janeiro - RJ, 22260-000, Brasil",
+      "estacionamento" : false,
+      "estrelas" : 4,
+      "geoLat" : -22.9490218,
+      "geoLng" : -43.185441200000014,
+      "idLocal" : "ChIJhVH8w91_mQARH9A5kMuWNbw",
+      "karaoke" : false,
+      "musica" : false,
+      "nomeBar" : "Boteco 98",
+      "photoUrl" : [ "https://lh5.googleusercontent.com/-1VDv0018gnI/V8SyUfuex3I/AAAAAAAAEh8/B86dvZJP9m8gSUvE_A5SbauGvjiN9TWjQCLIB/w400-h400-k/" ],
+      "precoAnt1000" : 0,
+      "precoAnt600" : "10.00",
+      "precoBra1000" : 0,
+      "precoBra600" : "9.90",
+      "precoIta1000" : 0,
+      "precoIta600" : 0,
+      "precoSkol1000" : 0,
+      "precoSkol600" : 0,
+      "sinuca" : false,
+      "telefone" : "(21) 2539-4971",
+      "urlGoogle" : "https://maps.google.com/?cid=13561911653938352159",
+      "userId" : "1145408352190021",
+      "userName" : "Lucius Pascale",
+      "userPhoto" : "http://graph.facebook.com/undefined/picture?width=270&height=270",
+      "vip" : 0,
+      "visitas" : {
+        "d2017" : {
+          "d4" : {
+            "d29" : 2
+          }
+        }
+      },
+      "votos" : 0,
+      "votosCore" : ""
+    },
+    "-KQfa5KQMPefy0HMFj5y" : {
+      "atracoes" : {
+        "karaoke" : false,
+        "musica" : false,
+        "sinuca" : false,
+        "wifi" : false
+      },
+      "cardapio" : "img/no-photo.png",
+      "cervejas" : {
+        "antartica" : {
+          "p600ml" : 7.5
+        },
+        "brahma" : {
+          "p600ml" : 6.5
+        },
+        "skol" : {
+          "p600ml" : 7
+        }
+      },
+      "dataAtualizacao" : "19102016 00:00:00",
+      "endereco" : "R. São Clemente, 82 - Botafogo, Rio de Janeiro - RJ, 22260-000, Brasil",
+      "estacionamento" : false,
+      "estrelas" : 0,
+      "geoLat" : -22.949298,
+      "geoLng" : -43.184983399999965,
+      "idLocal" : "ChIJw8hexN1_mQAR2rHed-mTBn4",
+      "karaoke" : false,
+      "musica" : false,
+      "nomeBar" : "Dino Bar",
+      "photoUrl" : [ "https://lh6.googleusercontent.com/-1aNjyEuvhvk/VznP9YmOikI/AAAAAAAAABE/lag_5TqvtwIhMdd4Wy4LTq8C1Kq9gkEUACLIB/w400-h400-k/" ],
+      "precoAnt1000" : "8.50",
+      "precoAnt600" : "7.50",
+      "precoBra1000" : 0,
+      "precoBra600" : "7.00",
+      "precoIta1000" : 0,
+      "precoIta600" : "6.50",
+      "precoSkol1000" : 0,
+      "precoSkol600" : "7.00",
+      "sinuca" : false,
+      "telefone" : "(21) 2579-0594",
+      "urlGoogle" : "https://maps.google.com/?cid=9081108329586930138",
+      "userId" : "1145408352190021",
+      "userName" : "Lucius Pascale",
+      "userPhoto" : "http://graph.facebook.com/undefined/picture?width=270&height=270",
+      "vip" : 0,
+      "visitas" : {
+        "d2017" : {
+          "d4" : {
+            "d30" : 2
+          }
+        }
+      },
+      "votos" : 0,
+      "votosCore" : ""
+    },
+    "-KQfkBr9lQFZxpGcXp9H" : {
+      "atracoes" : {
+        "karaoke" : false,
+        "musica" : false,
+        "sinuca" : false,
+        "wifi" : false
+      },
+      "cardapio" : "img/no-photo.png",
+      "cervejas" : {
+        "antartica" : {
+          "p600ml" : 8
+        },
+        "brahma" : {
+          "p600ml" : 6.5
+        },
+        "skol" : {
+          "p600ml" : 7.5
+        }
+      },
+      "dataAtualizacao" : "19102016 00:00:00",
+      "endereco" : "Loja A. - Rua São Manuel, 5 - Botafogo, Rio de Janeiro - RJ, 22290-010, Brasil",
+      "estacionamento" : false,
+      "estrelas" : 0,
+      "geoLat" : -22.9532558,
+      "geoLng" : -43.18196739999996,
+      "idLocal" : "ChIJD3pQffp_mQAROAob-ySth4Y",
+      "karaoke" : false,
+      "musica" : false,
+      "nomeBar" : "Boteco Passaki",
+      "photoUrl" : [ "https://scontent.fsdu8-2.fna.fbcdn.net/v/t1.0-9/10500538_1443288172597665_7572195970813399059_n.jpg?oh=4861d81049870299f3473a248a5056b3&oe=5920CE4D" ],
+      "precoAnt1000" : 0,
+      "precoAnt600" : "8.00",
+      "precoBra1000" : 0,
+      "precoBra600" : "7.50",
+      "precoIta1000" : 0,
+      "precoIta600" : "6.50",
+      "precoSkol1000" : "7.50",
+      "precoSkol600" : 0,
+      "sinuca" : false,
+      "telefone" : "(21) 2275-3649",
+      "urlGoogle" : "https://maps.google.com/?cid=9693907097281563192",
+      "userId" : "1145408352190021",
+      "userName" : "Lucius Pascale",
+      "userPhoto" : "http://graph.facebook.com/undefined/picture?width=270&height=270",
+      "vip" : 0,
+      "visitas" : {
+        "d2017" : {
+          "d4" : {
+            "d28" : 1
+          }
+        }
+      },
+      "votos" : 1,
+      "votosCore" : ",1145408352190021-1"
+    },
+    "-KQfmYsB6gl1J0vukI_I" : {
+      "atracoes" : {
+        "karaoke" : false,
+        "musica" : false,
+        "sinuca" : false,
+        "wifi" : false
+      },
+      "cardapio" : "img/no-photo.png",
+      "cervejas" : {
+        "antartica" : {
+          "p600ml" : 7
+        },
+        "brahma" : {
+          "p600ml" : 6.5
+        },
+        "skol" : {
+          "p600ml" : 6
+        }
+      },
+      "dataAtualizacao" : "19102016 00:00:00",
+      "endereco" : "R. Voluntários da Pátria, 36 - Lojas A e B - Botafogo, Rio de Janeiro - RJ, 22280-010, Brasil",
+      "estacionamento" : false,
+      "estrelas" : 4,
+      "geoLat" : -22.95083139999999,
+      "geoLng" : -43.183018000000004,
+      "idLocal" : "ChIJ4036QPB_mQARzoN6S-E7c2s",
+      "karaoke" : false,
+      "musica" : false,
+      "nomeBar" : "Bar e Restaurante Águia dos Andes",
+      "photoUrl" : [ "https://lh4.googleusercontent.com/-sgTtRJR0p2c/VzoGtl9VQsI/AAAAAAAAACM/SMljUnQeb58B_L7aWZjTKlA_GHJWM6n1wCLIB/w400-h400-k/" ],
+      "precoAnt1000" : 0,
+      "precoAnt600" : "7.00",
+      "precoBra1000" : 0,
+      "precoBra600" : "6.50",
+      "precoIta1000" : 0,
+      "precoIta600" : 0,
+      "precoSkol1000" : 0,
+      "precoSkol600" : "6.00",
+      "sinuca" : false,
+      "telefone" : "(21) 3649-9435",
+      "urlGoogle" : "https://maps.google.com/?cid=7742598023200015310",
+      "userId" : "1145408352190021",
+      "userName" : "Lucius Pascale",
+      "userPhoto" : "http://graph.facebook.com/undefined/picture?width=270&height=270",
+      "vip" : 0,
+      "visitas" : {
+        "d2017" : {
+          "d4" : {
+            "d30" : 1
+          }
+        }
+      },
+      "votos" : 0,
+      "votosCore" : ""
+    },
+    "-KQg37QC4rTqy1Bei87V" : {
+      "atracoes" : {
+        "karaoke" : false,
+        "musica" : false,
+        "sinuca" : false,
+        "wifi" : false
+      },
+      "cardapio" : "img/no-photo.png",
+      "cervejas" : {
+        "antartica" : {
+          "p600ml" : 7.5
+        },
+        "brahma" : {
+          "p600ml" : 7.5
+        }
+      },
+      "dataAtualizacao" : "19102016 00:00:00",
+      "endereco" : "Rua Sidônio Paes, 53 - Cascadura, Rio de Janeiro - RJ, 21350-031, Brasil",
+      "estacionamento" : false,
+      "estrelas" : 0,
+      "geoLat" : -22.880838,
+      "geoLng" : -43.326279,
+      "idLocal" : "ChIJsQH8bix9mQARqtU5npQ5ymA",
+      "karaoke" : false,
+      "musica" : false,
+      "nomeBar" : "La Pizza Bar",
+      "photoUrl" : [ "https://scontent.fsdu8-2.fna.fbcdn.net/v/t1.0-9/285617_969553466468626_4904338994046044932_n.png?oh=92e9508334252fc9e36502b8e989b315&oe=58DBEBF7" ],
+      "precoAnt1000" : 0,
+      "precoAnt600" : "7.50",
+      "precoBra1000" : 0,
+      "precoBra600" : "7.50",
+      "precoIta1000" : 0,
+      "precoIta600" : 0,
+      "precoSkol1000" : 0,
+      "precoSkol600" : 0,
+      "sinuca" : false,
+      "telefone" : "(21) 3042-3297",
+      "urlGoogle" : "https://maps.google.com/?cid=6974450283409167786",
+      "userId" : "1145408352190021",
+      "userName" : "Lucius Pascale",
+      "userPhoto" : "http://graph.facebook.com/undefined/picture?width=270&height=270",
+      "vip" : 0,
+      "visitas" : {
+        "d2017" : {
+          "d4" : {
+            "d28" : 0
+          }
+        }
+      },
+      "votos" : 0,
+      "votosCore" : ""
+    },
+    "-KQhm7hB_zL2tbjCU6iz" : {
+      "atracoes" : {
+        "karaoke" : false,
+        "musica" : false,
+        "sinuca" : false,
+        "wifi" : false
+      },
+      "cardapio" : "img/no-photo.png",
+      "cervejas" : {
+        "antartica" : {
+          "p600ml" : 9
+        }
+      },
+      "dataAtualizacao" : "19102016 00:00:00",
+      "endereco" : "R. Carlos de Vasconcelos, 46 - Tijuca, Rio de Janeiro - RJ, 20521-050, Brasil",
+      "estacionamento" : false,
+      "estrelas" : 0,
+      "geoLat" : -22.92619569999999,
+      "geoLng" : -43.2286757,
+      "idLocal" : "Ek1SLiBDYXJsb3MgZGUgVmFzY29uY2Vsb3MsIDQ2IC0gVGlqdWNhLCBSaW8gZGUgSmFuZWlybyAtIFJKLCAyMDUyMS0wNTAsIEJyYXNpbA",
+      "karaoke" : false,
+      "musica" : false,
+      "nomeBar" : "Sanduba di Boteko",
+      "photoUrl" : [ "https://scontent.fsdu8-2.fna.fbcdn.net/v/t1.0-9/13925234_1295708837147123_4389261432736138495_n.jpg?oh=1f1fb573a088b3e4cf8cc2d4383a1a78&oe=58E0FB6B" ],
+      "precoAnt1000" : 0,
+      "precoAnt600" : "9.00",
+      "precoBra1000" : 0,
+      "precoBra600" : 0,
+      "precoIta1000" : 0,
+      "precoIta600" : 0,
+      "precoSkol1000" : 0,
+      "precoSkol600" : 0,
+      "sinuca" : false,
+      "telefone" : "Indefinido",
+      "urlGoogle" : "https://maps.google.com/?q=R.+Carlos+de+Vasconcelos,+46+-+Tijuca,+Rio+de+Janeiro+-+RJ,+20521-050,+Brasil&ftid=0x997e40c0478607:0xd70bcbb9ec473aa9",
+      "userId" : "1145408352190021",
+      "userName" : "Lucius Pascale",
+      "userPhoto" : "http://graph.facebook.com/undefined/picture?width=270&height=270",
+      "vip" : 0,
+      "visitas" : {
+        "d2017" : {
+          "d4" : {
+            "d30" : 1
+          }
+        }
+      },
+      "votos" : -1,
+      "votosCore" : ",10209541598675284-0"
+    },
+    "-KQrtgkk-5LLaipfNcAP" : {
+      "atracoes" : {
+        "karaoke" : false,
+        "musica" : false,
+        "sinuca" : false,
+        "wifi" : false
+      },
+      "cardapio" : "img/no-photo.png",
+      "cervejas" : {
+        "antartica" : {
+          "p600ml" : 6.5
+        },
+        "brahma" : {
+          "p600ml" : 5
+        }
+      },
+      "dataAtualizacao" : "19102016 00:00:00",
+      "endereco" : "R. Ana Teles, 675 - Campinho, Rio de Janeiro - RJ, 21341-460, Brasil",
+      "estacionamento" : false,
+      "estrelas" : 4.3,
+      "geoLat" : -22.885586,
+      "geoLng" : -43.34790190000001,
+      "idLocal" : "ChIJ1ZQDQsBimQARsUNfKxJyXz0",
+      "karaoke" : false,
+      "musica" : false,
+      "nomeBar" : "Tico e Boteco",
+      "photoUrl" : [ "https://lh6.googleusercontent.com/-vaHcmAbwYrw/U3JV4m6g4lI/AAAAAAAAABM/uBK3ZvpoV2cYjJN8niGtRJUEMYRMf2WRw/w400-h400-k/" ],
+      "precoAnt1000" : "9.00",
+      "precoAnt600" : "6.50",
+      "precoBra1000" : 0,
+      "precoBra600" : "6.50",
+      "precoIta1000" : 0,
+      "precoIta600" : "5.00",
+      "precoSkol1000" : 0,
+      "precoSkol600" : 0,
+      "sinuca" : false,
+      "telefone" : "(21) 2489-6656",
+      "urlGoogle" : "https://maps.google.com/?cid=4422378781463757745",
+      "userId" : "1145408352190021",
+      "userName" : "Lucius Pascale",
+      "userPhoto" : "http://graph.facebook.com/undefined/picture?width=270&height=270",
+      "vip" : 0,
+      "visitas" : {
+        "d2017" : {
+          "d4" : {
+            "d28" : 0
+          },
+          "d5" : {
+            "d11" : 1
+          },
+          "d6" : {
+            "d14" : 0,
+            "d15" : 1,
+            "d28" : 2
+          }
+        }
+      },
+      "votos" : 0,
+      "votosCore" : ""
+    },
+    "-KRAZfNv22ALo9ZlEGAT" : {
+      "atracoes" : {
+        "karaoke" : false,
+        "musica" : false,
+        "sinuca" : false,
+        "wifi" : false
+      },
+      "cardapio" : "img/no-photo.png",
+      "cervejas" : {
+        "antartica" : {
+          "p600ml" : 7
+        },
+        "brahma" : {
+          "p600ml" : 6
+        },
+        "skol" : {
+          "p600ml" : 6
+        }
+      },
+      "dataAtualizacao" : "19102016 00:00:00",
+      "endereco" : "Rua Barão, 278 - Praça Seca, Rio de Janeiro - RJ, 21321-620, Brasil",
+      "geoLat" : -22.9021013,
+      "geoLng" : -43.34758590000001,
+      "idLocal" : "ChIJYWG_nqFimQARzQ2bpM927Mk",
+      "karaoke" : false,
+      "musica" : false,
+      "nomeBar" : "O Bom da Barão",
+      "photoUrl" : [ "https://lh5.googleusercontent.com/-BGUJY7ZU-TM/VL6x47mK81I/AAAAAAAAAAc/KQDSTE5zneo-GWQR9Jlkds3zz5nFZyRLA/w400-h400-k/" ],
+      "precoAnt1000" : "8.00",
+      "precoAnt600" : "7.00",
+      "precoBra1000" : "7.00",
+      "precoBra600" : "6.00",
+      "precoIta1000" : "7.50",
+      "precoIta600" : "6.00",
+      "precoSkol1000" : "7.00",
+      "precoSkol600" : "6.00",
+      "sinuca" : false,
+      "telefone" : "Indefinido",
+      "urlGoogle" : "https://maps.google.com/?cid=14550135130319162829",
+      "userId" : "1145408352190021",
+      "userName" : "Lucius Pascale",
+      "userPhoto" : "http://graph.facebook.com/undefined/picture?width=270&height=270",
+      "vip" : 0,
+      "visitas" : {
+        "d2017" : {
+          "d4" : {
+            "d30" : 1
+          },
+          "d5" : {
+            "d18" : 1,
+            "d23" : 0,
+            "d9" : 0
+          },
+          "d6" : {
+            "d28" : 0
+          }
+        }
+      },
+      "votos" : 1,
+      "votosCore" : ",1145408352190021-1"
+    },
+    "-KRAhKK_gU4tu17B-jD7" : {
+      "atracoes" : {
+        "karaoke" : false,
+        "musica" : true,
+        "sinuca" : true,
+        "wifi" : false
+      },
+      "cardapio" : "img/no-photo.png",
+      "cervejas" : {
+        "antartica" : {
+          "p600ml" : 7.5
+        },
+        "brahma" : {
+          "p600ml" : 7.5
+        },
+        "heineken" : {
+          "p600ml" : 6
+        }
+      },
+      "dataAtualizacao" : "19102016 00:00:00",
+      "endereco" : "Praça de Quintino, 39 - Quintino, Rio de Janeiro - RJ, 21311-440, Brasil",
+      "geoLat" : -22.889794,
+      "geoLng" : -43.320407999999986,
+      "idLocal" : "ChIJGZ5VhTB9mQARhextPOf2VrM",
+      "karaoke" : false,
+      "musica" : true,
+      "nomeBar" : "Bar das Meninas",
+      "photoUrl" : [ "img/no-photo.png" ],
+      "precoAnt1000" : "9.00",
+      "precoAnt600" : "7.50",
+      "precoBra1000" : "9.00",
+      "precoBra600" : "7.50",
+      "precoIta1000" : "8.00",
+      "precoIta600" : "6.00",
+      "precoSkol1000" : 0,
+      "precoSkol600" : 0,
+      "sinuca" : true,
+      "telefone" : "(21) 97965-2286",
+      "urlGoogle" : "https://maps.google.com/?cid=12922787653797932165",
+      "userId" : "1145408352190021",
+      "userName" : "Lucius Pascale",
+      "userPhoto" : "http://graph.facebook.com/undefined/picture?width=270&height=270",
+      "vip" : 0,
+      "visitas" : {
+        "d2017" : {
+          "d4" : {
+            "d30" : 2
+          }
+        }
+      },
+      "votos" : 1,
+      "votosCore" : ",1145408352190021-1"
+    },
+    "-KRErRJLxAn-yRrqMStE" : {
+      "atracoes" : {
+        "karaoke" : false,
+        "musica" : false,
+        "sinuca" : false,
+        "wifi" : false
+      },
+      "cardapio" : "img/no-photo.png",
+      "cervejas" : {
+        "antartica" : {
+          "p600ml" : 8
+        },
+        "brahma" : {
+          "p600ml" : 7
+        },
+        "skol" : {
+          "p600ml" : 6
+        }
+      },
+      "dataAtualizacao" : "19102016 00:00:00",
+      "endereco" : "Rua General Canabarro, 35 C - Tijuca, Rio de Janeiro - RJ, 20271-203",
+      "geoLat" : -22.915995,
+      "geoLng" : -43.22683699999999,
+      "idLocal" : "ChIJGzXRn1t-mQARu7PixU9eBD0",
+      "karaoke" : false,
+      "musica" : false,
+      "nomeBar" : "Quartel dos Sabores",
+      "photoUrl" : [ "http://i.imgur.com/LH2X5l2.jpg" ],
+      "precoAnt1000" : 0,
+      "precoAnt600" : "8.00",
+      "precoBra1000" : 0,
+      "precoBra600" : "7.00",
+      "precoIta1000" : 0,
+      "precoIta600" : 0,
+      "precoSkol1000" : 0,
+      "precoSkol600" : "6.00",
+      "sinuca" : false,
+      "telefone" : "(21) 2284-1807",
+      "urlGoogle" : "https://maps.google.com/?cid=4396742832935842747",
+      "userId" : "1145408352190021",
+      "userName" : "Lucius Pascale",
+      "userPhoto" : "http://graph.facebook.com/undefined/picture?width=270&height=270",
+      "vip" : 0,
+      "visitas" : {
+        "d2017" : {
+          "d4" : {
+            "d28" : 0
+          }
+        }
+      },
+      "votos" : 1,
+      "votosCore" : ",10209541598675284-1"
+    },
+    "-KRFGPsif_-84t2Aidib" : {
+      "atracoes" : {
+        "karaoke" : false,
+        "musica" : false,
+        "sinuca" : false,
+        "wifi" : false
+      },
+      "cardapio" : "img/no-photo.png",
+      "cervejas" : {
+        "antartica" : {
+          "p600ml" : 9
+        },
+        "brahma" : {
+          "p600ml" : 9
+        }
+      },
+      "dataAtualizacao" : "19102016 00:00:00",
+      "endereco" : "R. Gen. Canabarro, 119 - Maracanã, Rio de Janeiro - RJ, 20271-202, Brasil",
+      "geoLat" : -22.915325,
+      "geoLng" : -43.22663499999999,
+      "idLocal" : "ChIJg3y9vlt-mQARCLGTq-EOszo",
+      "karaoke" : false,
+      "musica" : false,
+      "nomeBar" : "Bar dos Chico's",
+      "photoUrl" : [ "https://lh4.googleusercontent.com/-yRsRf-dOL9s/VpEXCRiewnI/AAAAAAAAACY/uFz_yiyRFaI7s3dW4ZDAA-wz4Or-Rp1ng/w400-h400-k/" ],
+      "precoAnt1000" : 0,
+      "precoAnt600" : "9.00",
+      "precoBra1000" : 0,
+      "precoBra600" : "9.00",
+      "precoIta1000" : 0,
+      "precoIta600" : 0,
+      "precoSkol1000" : 0,
+      "precoSkol600" : 0,
+      "sinuca" : false,
+      "telefone" : "(21) 2568-5421",
+      "urlGoogle" : "https://maps.google.com/?cid=4229740837440041224",
+      "userId" : "1145408352190021",
+      "userName" : "Lucius Pascale",
+      "userPhoto" : "http://graph.facebook.com/undefined/picture?width=270&height=270",
+      "vip" : 0,
+      "visitas" : {
+        "d2017" : {
+          "d4" : {
+            "d28" : 0
+          }
+        }
+      },
+      "votos" : -1,
+      "votosCore" : ",10209541598675284-0"
+    },
+    "-KRFGpuoxDmpkPQrIJgu" : {
+      "atracoes" : {
+        "karaoke" : false,
+        "musica" : false,
+        "sinuca" : false,
+        "wifi" : false
+      },
+      "cardapio" : "img/no-photo.png",
+      "cervejas" : {
+        "antartica" : {
+          "p600ml" : 9
+        },
+        "brahma" : {
+          "p600ml" : 9
+        }
+      },
+      "dataAtualizacao" : "19102016 00:00:00",
+      "endereco" : "R. Gen. Canabarro, 218 - Maracanã, Rio de Janeiro - RJ, 20271-203, Brasil",
+      "geoLat" : -22.914581,
+      "geoLng" : -43.225990000000024,
+      "idLocal" : "ChIJtao1zlt-mQARhw2622cgSFs",
+      "karaoke" : false,
+      "musica" : false,
+      "nomeBar" : "Bar do Bode Cheiroso",
+      "photoUrl" : [ "https://scontent.fsdu8-2.fna.fbcdn.net/v/t1.0-9/10489700_335344479953917_6964074928468680498_n.jpg?oh=6ce04fa96eef1aa3f02a45d3f51fbc6e&oe=591949CE" ],
+      "precoAnt1000" : 0,
+      "precoAnt600" : "9.00",
+      "precoBra1000" : 0,
+      "precoBra600" : "9.00",
+      "precoIta1000" : 0,
+      "precoIta600" : 0,
+      "precoSkol1000" : 0,
+      "precoSkol600" : 0,
+      "sinuca" : false,
+      "telefone" : "(21) 2568-9511",
+      "urlGoogle" : "https://maps.google.com/?cid=6577542886214733191",
+      "userId" : "1145408352190021",
+      "userName" : "Lucius Pascale",
+      "userPhoto" : "http://graph.facebook.com/undefined/picture?width=270&height=270",
+      "vip" : 0,
+      "visitas" : {
+        "d2017" : {
+          "d4" : {
+            "d30" : 1
+          },
+          "d6" : {
+            "d14" : 1,
+            "d16" : 3
+          }
+        }
+      },
+      "votos" : -1,
+      "votosCore" : ",10209541598675284-0"
+    },
+    "-KRLAnmot-RXraP0Db7U" : {
+      "atracoes" : {
+        "karaoke" : false,
+        "musica" : true,
+        "sinuca" : false,
+        "wifi" : false
+      },
+      "cardapio" : "img/no-photo.png",
+      "cervejas" : {
+        "antartica" : {
+          "p600ml" : 7.5
+        },
+        "brahma" : {
+          "p600ml" : 7.5
+        }
+      },
+      "dataAtualizacao" : "19102016 00:00:00",
+      "endereco" : "21321-035 - Beco Mario Pereira, 2-122 - Praça Seca, Rio de Janeiro - RJ, 21321-035, Brasil",
+      "geoLat" : -22.8929304,
+      "geoLng" : -43.348891500000036,
+      "idLocal" : "ChIJhTfbIJZimQARajdhxE5nc2g",
+      "karaoke" : false,
+      "musica" : true,
+      "nomeBar" : "Barcana's Beer",
+      "photoUrl" : [ "https://scontent.fsdu8-2.fna.fbcdn.net/v/t1.0-9/13055510_1117767774942657_4044967207313296109_n.jpg?oh=3e0ede7bba1ecca52c1516ff394bdd18&oe=59230F71" ],
+      "precoAnt1000" : 0,
+      "precoAnt600" : "7.50",
+      "precoBra1000" : 0,
+      "precoBra600" : "7.50",
+      "precoIta1000" : 0,
+      "precoIta600" : 0,
+      "precoSkol1000" : 0,
+      "precoSkol600" : 0,
+      "sinuca" : false,
+      "telefone" : "Indefinido",
+      "urlGoogle" : "https://maps.google.com/?cid=7526472990266046314",
+      "userId" : "1145408352190021",
+      "userName" : "Lucius Pascale",
+      "userPhoto" : "http://graph.facebook.com/undefined/picture?width=270&height=270",
+      "vip" : 0,
+      "visitas" : {
+        "d2017" : {
+          "d4" : {
+            "d28" : 0
+          }
+        }
+      },
+      "votos" : 0,
+      "votosCore" : ""
+    },
+    "-KRlHGRziP0oTyclfnYB" : {
+      "atracoes" : {
+        "karaoke" : false,
+        "musica" : false,
+        "sinuca" : false,
+        "wifi" : false
+      },
+      "cardapio" : "img/no-photo.png",
+      "cervejas" : {
+        "antartica" : {
+          "p600ml" : 7.5
+        },
+        "bohemia" : {
+          "p600ml" : 12.9
+        },
+        "brahma" : {
+          "p600ml" : 7.5
+        },
+        "skol" : {
+          "p600ml" : 10.9
+        }
+      },
+      "dataAtualizacao" : "19102016 00:00:00",
+      "endereco" : "Loja A - R. Araguaia, 985 - Freguesia (Jacarepaguá), Rio de Janeiro - RJ, 22745-270, Brasil",
+      "geoLat" : -22.9354261,
+      "geoLng" : -43.33807539999998,
+      "idLocal" : "ChIJy9w83iTYmwARmrnQF52xZW4",
+      "karaoke" : false,
+      "musica" : false,
+      "nomeBar" : "Boteco Original",
+      "photoUrl" : [ "https://lh4.googleusercontent.com/-xZm6j6WTSX4/V7o7kB-f5UI/AAAAAAAAAPs/gOqCS-ByCmkuoMEO_UKCqPWbq9KODSH6QCLIB/w400-h400-k/" ],
+      "precoAnt1000" : 0,
+      "precoAnt600" : 0,
+      "precoBra1000" : 0,
+      "precoBra600" : 0,
+      "precoIta1000" : 0,
+      "precoIta600" : 0,
+      "precoSkol1000" : 0,
+      "precoSkol600" : 0,
+      "sinuca" : false,
+      "telefone" : "Indefinido",
+      "urlGoogle" : "https://maps.google.com/?cid=7954959605087386010",
+      "userId" : "1145408352190021",
+      "userName" : "Lucius Pascale",
+      "userPhoto" : "http://graph.facebook.com/undefined/picture?width=270&height=270",
+      "vip" : 0,
+      "visitas" : {
+        "d2017" : {
+          "d4" : {
+            "d30" : 2
+          },
+          "d6" : {
+            "d17" : 1,
+            "d23" : 0,
+            "d24" : 0,
+            "d28" : 0
+          }
+        }
+      },
+      "votos" : 0,
+      "votosCore" : ""
+    },
+    "-KS-lL-rFi2bdRrgLE8I" : {
+      "atracoes" : {
+        "karaoke" : true,
+        "musica" : false,
+        "sinuca" : false,
+        "wifi" : false
+      },
+      "cardapio" : "img/no-photo.png",
+      "cervejas" : {
+        "antartica" : {
+          "p600ml" : 6
+        }
+      },
+      "dataAtualizacao" : "19102016 00:00:00",
+      "endereco" : "Rua Paschoal Carlos Magno, 99 - Santa Teresa, Rio de Janeiro - RJ, 20240-290, Brasil",
+      "geoLat" : -22.921135,
+      "geoLng" : -43.186927500000024,
+      "idLocal" : "ChIJQ2ZmNXZ_mQARORFUopsZ9lI",
+      "nomeBar" : "Bar do Mineiro",
+      "photoUrl" : [ "https://scontent.fsdu8-2.fna.fbcdn.net/v/t1.0-9/291947_111834698922651_662136195_n.jpg?oh=430f07a1441c71dd6a7f9d285ca592ff&oe=590F2F4B" ],
+      "telefone" : "(21) 2221-9227",
+      "urlGoogle" : "https://maps.google.com/?cid=5977993711614955833",
+      "userId" : "10209541598675284",
+      "userName" : "Israel Neves",
+      "userPhoto" : "http://graph.facebook.com/10209541598675284/picture?width=270&height=270",
+      "visitas" : {
+        "d2017" : {
+          "d4" : {
+            "d30" : 1
+          },
+          "d6" : {
+            "d14" : 15,
+            "d16" : 24,
+            "d17" : 0,
+            "d18" : 1,
+            "d28" : 2,
+            "d29" : 0
+          }
+        }
+      },
+      "votos" : 0,
+      "votosCore" : ""
+    },
+    "-KS2EUTfci0mI1Mz2MSO" : {
+      "atracoes" : {
+        "karaoke" : false,
+        "musica" : false,
+        "sinuca" : false,
+        "wifi" : false
+      },
+      "cardapio" : "img/no-photo.png",
+      "cervejas" : {
+        "skol" : {
+          "p600ml" : 9
+        }
+      },
+      "dataAtualizacao" : "19102016 00:00:00",
+      "endereco" : "R. Gen. Espírito Santo Cardoso, 50 - Loja A - Tijuca, Rio de Janeiro - RJ, 20530-500, Brasil",
+      "geoLat" : -22.9298053,
+      "geoLng" : -43.24314849999996,
+      "idLocal" : "ChIJryLizQ9-mQARj-nMSruOYaQ",
+      "nomeBar" : "Bar do Momo",
+      "photoUrl" : [ "https://scontent.fsdu8-2.fna.fbcdn.net/v/t1.0-9/299204_361975237255173_1051210476_n.jpg?oh=6e0804023802a967eba4957062edcf77&oe=58E6D8DD" ],
+      "telefone" : "(21) 2570-9389",
+      "urlGoogle" : "https://maps.google.com/?cid=11844905430026086799",
+      "userId" : "10209541598675284",
+      "userName" : "Israel Neves",
+      "userPhoto" : "http://graph.facebook.com/10209541598675284/picture?width=270&height=270",
+      "visitas" : {
+        "d2017" : {
+          "d4" : {
+            "d28" : 0
+          }
+        }
+      },
+      "votos" : -1,
+      "votosCore" : ",10209541598675284-0"
+    },
+    "-KS2RAxd6zXMchGQgNEk" : {
+      "atracoes" : {
+        "karaoke" : false,
+        "musica" : false,
+        "sinuca" : false,
+        "wifi" : false
+      },
+      "cardapio" : "img/no-photo.png",
+      "cervejas" : {
+        "amstel" : {
+          "p600ml" : 10.5
+        },
+        "antartica" : {
+          "p600ml" : 7.5
+        },
+        "bohemia" : {
+          "p600ml" : 10.5
+        },
+        "brahma" : {
+          "p600ml" : 7.5
+        },
+        "heineken" : {
+          "p600ml" : 8
+        }
+      },
+      "dataAtualizacao" : "19102016 00:00:00",
+      "endereco" : "R. Gen. Canabarro, 810 - Maracanã, Rio de Janeiro - RJ, 20271-205, Brasil",
+      "geoLat" : -22.9111734,
+      "geoLng" : -43.222030099999984,
+      "idLocal" : "ChIJn4Dj6Fd-mQARzrUJRZbLkHc",
+      "nomeBar" : "Bar do Frances",
+      "photoUrl" : [ "img/no-photo.png" ],
+      "telefone" : "Indefinido",
+      "urlGoogle" : "https://maps.google.com/?q=R.+Gen.+Canabarro,+810+-+Maracan%C3%A3,+Rio+de+Janeiro+-+RJ,+20271-205,+Brasil&ftid=0x997e57e8e3809f:0x7790cb964509b5ce",
+      "userId" : "1145408352190021",
+      "userName" : "Lucius Pascale",
+      "userPhoto" : "http://graph.facebook.com/1145408352190021/picture?width=270&height=270",
+      "visitas" : {
+        "d2017" : {
+          "d4" : {
+            "d29" : 1
+          }
+        }
+      },
+      "votos" : 1,
+      "votosCore" : ",10209541598675284-1"
+    },
+    "-KS6b1Mo6hmReMJzxEsM" : {
+      "atracoes" : {
+        "karaoke" : false,
+        "musica" : false,
+        "sinuca" : false,
+        "wifi" : false
+      },
+      "cardapio" : "img/no-photo.png",
+      "cervejas" : {
+        "bohemia" : {
+          "p600ml" : 8
+        }
+      },
+      "dataAtualizacao" : "19102016 00:00:00",
+      "endereco" : "R. Dias da Cruz, 520 - Meier, Rio de Janeiro - RJ, 20720-013, Brasil",
+      "geoLat" : -22.9050301,
+      "geoLng" : -43.290160300000025,
+      "idLocal" : "ChIJ_wUUbqB9mQARbkBa6snoIjM",
+      "nomeBar" : "Vizinhando Espeteria",
+      "photoUrl" : [ "https://scontent.fsdu8-2.fna.fbcdn.net/v/t1.0-9/13507180_672871502862192_5244866250964113593_n.png?oh=79bb982af602fc632be207c2cfc14926&oe=5918B8D3" ],
+      "telefone" : "(21) 3173-2924",
+      "urlGoogle" : "https://scontent.fsdu8-2.fna.fbcdn.net/v/t1.0-9/13507180_672871502862192_5244866250964113593_n.png?oh=79bb982af602fc632be207c2cfc14926&oe=5918B8D3",
+      "userId" : "1145408352190021",
+      "userName" : "Lucius Pascale",
+      "userPhoto" : "http://graph.facebook.com/1145408352190021/picture?width=270&height=270",
+      "visitas" : {
+        "d2017" : {
+          "d4" : {
+            "d28" : 0
+          }
+        }
+      },
+      "votos" : -1,
+      "votosCore" : ",10209541598675284-0"
+    },
+    "-KSMEzOLax2prReVCDN6" : {
+      "atracoes" : {
+        "karaoke" : false,
+        "musica" : false,
+        "sinuca" : false,
+        "wifi" : false
+      },
+      "cardapio" : "img/no-photo.png",
+      "cervejas" : {
+        "antartica" : {
+          "p600ml" : 6
+        }
+      },
+      "dataAtualizacao" : "19102016 00:00:00",
+      "endereco" : "R. Ferreira de Menezes, 193 - Engenho da Rainha, Rio de Janeiro - RJ, 20761-250, Brasil",
+      "geoLat" : -22.8712924,
+      "geoLng" : -43.29592070000001,
+      "idLocal" : "EldSLiBGZXJyZWlyYSBkZSBNZW5lemVzLCAxOTMgLSBFbmdlbmhvIGRhIFJhaW5oYSwgUmlvIGRlIEphbmVpcm8gLSBSSiwgMjA3NjEtMjUwLCBCcmFzaWw",
+      "nomeBar" : "Bar do charles",
+      "photoUrl" : [ "img/no-photo.png" ],
+      "telefone" : "Indefinido",
+      "urlGoogle" : "https://maps.google.com/?q=R.+Ferreira+de+Menezes,+193+-+Engenho+da+Rainha,+Rio+de+Janeiro+-+RJ,+20761-250,+Brasil&ftid=0x997cf3fcfc2dc9:0x76ae9b45670e2444",
+      "userId" : "1145408352190021",
+      "userName" : "Lucius Pascale",
+      "userPhoto" : "http://graph.facebook.com/1145408352190021/picture?width=270&height=270",
+      "visitas" : {
+        "d2017" : {
+          "d4" : {
+            "d28" : 1
+          }
+        }
+      },
+      "votos" : 0,
+      "votosCore" : ""
+    },
+    "-KSMHnGqcRdGr0QjAiEC" : {
+      "atracoes" : {
+        "karaoke" : false,
+        "musica" : true,
+        "sinuca" : false,
+        "wifi" : false
+      },
+      "cardapio" : "img/no-photo.png",
+      "dataAtualizacao" : "19102016 00:00:00",
+      "endereco" : "R. Lucaia, 71 - Taquara, Rio de Janeiro - RJ, 22720-250, Brasil",
+      "geoLat" : -22.9175017,
+      "geoLng" : -43.38627300000002,
+      "idLocal" : "ChIJeSfi9OnYmwARwQcy2tq9EOI",
+      "nomeBar" : "Bar da Bud Taquara",
+      "photoUrl" : [ "https://scontent.fsdu8-2.fna.fbcdn.net/v/t1.0-9/12038082_740208909439687_2321564137746217043_n.jpg?oh=aaafab8e543c05b28cd1bb89a85f8b72&oe=5923DE9C" ],
+      "telefone" : "(21) 3738-9879",
+      "urlGoogle" : "https://maps.google.com/?cid=16289728599860316097",
+      "userId" : "1127790133977629",
+      "userName" : "Vinícius Carvalho",
+      "userPhoto" : "http://graph.facebook.com/1127790133977629/picture?width=270&height=270",
+      "visitas" : {
+        "d2017" : {
+          "d4" : {
+            "d28" : 0
+          }
+        }
+      },
+      "votos" : 0,
+      "votosCore" : ""
+    },
+    "-KSSf9HRkn96FuXTuZhi" : {
+      "atracoes" : {
+        "karaoke" : false,
+        "musica" : true,
+        "sinuca" : false,
+        "wifi" : false
+      },
+      "cardapio" : "img/no-photo.png",
+      "cervejas" : {
+        "bohemia" : {
+          "p600ml" : 6.9
+        },
+        "heineken" : {
+          "p600ml" : 7.5
+        }
+      },
+      "dataAtualizacao" : "19102016 00:00:00",
+      "endereco" : "Estrada Intendente Magalhães, 799 - Vila Valqueire, Rio de Janeiro - RJ, 21341-332, Brasil",
+      "geoLat" : -22.87822259999999,
+      "geoLng" : -43.3614116,
+      "idLocal" : "ChIJOfV52vNimQAR8_aZVGD1aIg",
+      "nomeBar" : "Resenha Bar e Grill",
+      "photoUrl" : [ "https://scontent.fsdu8-2.fna.fbcdn.net/v/t1.0-9/13895464_892616574202129_7162987578068456863_n.png?oh=151f14937a2367f6b5379a453b45fd27&oe=5915894E" ],
+      "telefone" : "(21) 3796-6003",
+      "urlGoogle" : "https://maps.google.com/?cid=9829375980821149427",
+      "userId" : "1145408352190021",
+      "userName" : "Lucius Pascale",
+      "userPhoto" : "http://graph.facebook.com/1145408352190021/picture?width=270&height=270",
+      "visitas" : {
+        "d2017" : {
+          "d4" : {
+            "d28" : 0
+          }
+        }
+      },
+      "votos" : 0,
+      "votosCore" : ""
+    },
+    "-KSbFriqsVOy2Rj28V1G" : {
+      "atracoes" : {
+        "karaoke" : false,
+        "musica" : false,
+        "sinuca" : false,
+        "wifi" : false
+      },
+      "cardapio" : "img/no-photo.png",
+      "cervejas" : {
+        "antartica" : {
+          "p600ml" : 7.5
+        },
+        "brahma" : {
+          "p600ml" : 9
+        },
+        "skol" : {
+          "p600ml" : 6.5
+        }
+      },
+      "dataAtualizacao" : "19102016 00:00:00",
+      "endereco" : "R. Frei Leandro, 4 - Lagoa, Rio de Janeiro - RJ, 22470-210, Brasil",
+      "geoLat" : -22.9607565,
+      "geoLng" : -43.2066969,
+      "idLocal" : "ChIJifG4rXvVmwARQ2OZMS4rv0w",
+      "nomeBar" : "Boteco sonho lindo",
+      "photoUrl" : [ "img/no-photo.png" ],
+      "telefone" : "Indefinido",
+      "urlGoogle" : "https://maps.google.com/?q=R.+Frei+Leandro,+4+-+Lagoa,+Rio+de+Janeiro+-+RJ,+22470-210,+Brasil&ftid=0x9bd57badb8f189:0x4cbf2b2e31996343",
+      "userId" : "1145408352190021",
+      "userName" : "Lucius Pascale",
+      "userPhoto" : "http://graph.facebook.com/1145408352190021/picture?width=270&height=270",
+      "visitas" : {
+        "d2017" : {
+          "d4" : {
+            "d28" : 0
+          }
+        }
+      },
+      "votos" : 0,
+      "votosCore" : ""
+    },
+    "-KT9yVlLd_d0voO3MgOO" : {
+      "atracoes" : {
+        "karaoke" : false,
+        "musica" : false,
+        "sinuca" : false,
+        "wifi" : false
+      },
+      "cardapio" : "img/no-photo.png",
+      "cervejas" : {
+        "bohemia" : {
+          "p600ml" : 11
+        },
+        "heineken" : {
+          "p600ml" : 7
+        },
+        "skol" : {
+          "p600ml" : 7.5
+        }
+      },
+      "dataAtualizacao" : "19102016 00:00:00",
+      "endereco" : "R. Barata Ribeiro, 819 - Copacabana, Rio de Janeiro - RJ, 22051-002, Brasil",
+      "geoLat" : -22.9773391,
+      "geoLng" : -43.192494899999986,
+      "idLocal" : "ChIJr8TYc0DVmwARScCghskBDSw",
+      "nomeBar" : "Papilon bar e lanchonete",
+      "photoUrl" : [ "img/no-photo.png" ],
+      "telefone" : "Indefinido",
+      "urlGoogle" : "https://maps.google.com/?q=R.+Barata+Ribeiro,+819+-+Copacabana,+Rio+de+Janeiro+-+RJ,+22051-002,+Brasil&ftid=0x9bd54073d8c4af:0x2c0d01c986a0c049",
+      "userId" : "1145408352190021",
+      "userName" : "Lucius Pascale",
+      "userPhoto" : "http://graph.facebook.com/1145408352190021/picture?width=270&height=270",
+      "visitas" : {
+        "d2017" : {
+          "d4" : {
+            "d28" : 0
+          }
+        }
+      },
+      "votos" : 0,
+      "votosCore" : ""
+    },
+    "-KT_L59IZNLxD_sj5ctI" : {
+      "atracoes" : {
+        "karaoke" : false,
+        "musica" : false,
+        "sinuca" : false,
+        "wifi" : false
+      },
+      "cardapio" : "img/no-photo.png",
+      "cervejas" : {
+        "antartica" : {
+          "p600ml" : 9
+        },
+        "brahma" : {
+          "p600ml" : 9
+        },
+        "skol" : {
+          "p600ml" : 9
+        }
+      },
+      "dataAtualizacao" : "19102016 00:00:00",
+      "endereco" : "Estr. dos Bandeirantes, 144 - Taquara, Rio de Janeiro - RJ, 22710-112, Brasil",
+      "geoLat" : -22.924997,
+      "geoLng" : -43.374142500000005,
+      "idLocal" : "ChIJtehNufDYmwAR3rgeczqr4Tk",
+      "nomeBar" : "Novo Bandeirante",
+      "photoUrl" : [ "https://scontent.fsdu8-2.fna.fbcdn.net/v/t1.0-9/14088516_1187877034605654_8144433978758632151_n.jpg?oh=db971be0622df7636bf3237a914cb2a2&oe=59193FFC" ],
+      "telefone" : "Indefinido",
+      "urlGoogle" : "https://maps.google.com/?cid=4170802997449636062",
+      "userId" : "1145408352190021",
+      "userName" : "Lucius Pascale",
+      "userPhoto" : "http://graph.facebook.com/1145408352190021/picture?width=270&height=270",
+      "visitas" : {
+        "d2017" : {
+          "d4" : {
+            "d28" : 0
+          }
+        }
+      },
+      "votos" : 0,
+      "votosCore" : ""
+    },
+    "-KTvJ6SuSLPi8D-0_0CH" : {
+      "atracoes" : {
+        "karaoke" : false,
+        "musica" : false,
+        "sinuca" : false,
+        "wifi" : false
+      },
+      "cardapio" : "img/no-photo.png",
+      "cervejas" : {
+        "bohemia" : {
+          "p600ml" : 7
+        },
+        "heineken" : {
+          "p600ml" : 7.5
+        }
+      },
+      "dataAtualizacao" : "19102016 00:00:00",
+      "endereco" : "Rua Alberto Teixeira Cunha, 1069 - Nilópolis, RJ, 26520-070, Brasil",
+      "geoLat" : -22.8139164,
+      "geoLng" : -43.4239675,
+      "idLocal" : "ChIJ6y_h1kdhmQARvYiCsd1MMXE",
+      "nomeBar" : "Don Carioca",
+      "photoUrl" : [ "https://lh3.googleusercontent.com/-XxPUD_g4OJo/Veiv-pODO0I/AAAAAAAAAAo/07iDb6l9DY81Hyg--1KUv36y9WphJ6hQg/w400-h400-k/" ],
+      "telefone" : "(21) 3743-2824",
+      "urlGoogle" : "https://maps.google.com/?cid=8156384915194284221",
+      "userId" : "1145408352190021",
+      "userName" : "Lucius Pascale",
+      "userPhoto" : "http://graph.facebook.com/1145408352190021/picture?width=270&height=270",
+      "visitas" : {
+        "d2017" : {
+          "d4" : {
+            "d29" : 1
+          }
+        }
+      },
+      "votos" : 0,
+      "votosCore" : ""
+    },
+    "-KU6pZcFCdlP7jQ90Yxh" : {
+      "atracoes" : {
+        "karaoke" : false,
+        "musica" : false,
+        "sinuca" : false,
+        "wifi" : false
+      },
+      "cardapio" : "img/no-photo.png",
+      "cervejas" : {
+        "antartica" : {
+          "p600ml" : 8.9
+        },
+        "bohemia" : {
+          "p600ml" : 10.9
+        },
+        "brahma" : {
+          "p600ml" : 6.9
+        }
+      },
+      "dataAtualizacao" : "19102016 00:00:00",
+      "endereco" : "R. das Camélias, 259 - Loja E - Vila Valqueire, Rio de Janeiro - RJ, 21330-200, Brasil",
+      "geoLat" : -22.87953,
+      "geoLng" : -43.36643700000002,
+      "idLocal" : "ChIJQ9YWFvVimQAR0PcsxKvHhvw",
+      "nomeBar" : "Meu Lugar Botequim",
+      "photoUrl" : [ "https://lh5.googleusercontent.com/-L87vl3IQYCw/Vefj6sFc-eI/AAAAAAAAAAg/fJblgFvWz8wdCmVFrTDezA0sR0QMZke4Q/w400-h400-k/" ],
+      "telefone" : "(21) 3497-0631",
+      "urlGoogle" : "https://maps.google.com/?cid=18196450884981684176",
+      "userId" : "1145408352190021",
+      "userName" : "Lucius Pascale",
+      "userPhoto" : "http://graph.facebook.com/1145408352190021/picture?width=270&height=270",
+      "visitas" : {
+        "d2017" : {
+          "d4" : {
+            "d28" : 0
+          }
+        }
+      },
+      "votos" : 0,
+      "votosCore" : ""
+    },
+    "-KUN-lVjnwWpjeFCXL_K" : {
+      "atracoes" : {
+        "karaoke" : false,
+        "musica" : false,
+        "sinuca" : false,
+        "wifi" : false
+      },
+      "cardapio" : "img/no-photo.png",
+      "cervejas" : {
+        "antartica" : {
+          "p600ml" : 9
+        }
+      },
+      "dataAtualizacao" : "19102016 00:00:00",
+      "endereco" : "R. Marquês de Abrantes, 64 - Loja 8 - Flamengo, Rio de Janeiro - RJ, 22230-061, Brasil",
+      "geoLat" : -22.9355723,
+      "geoLng" : -43.17732699999999,
+      "idLocal" : "ChIJMQFigIh_mQARI40GTGXQrNg",
+      "nomeBar" : "Bar da Maria",
+      "photoUrl" : [ "img/no-photo.png" ],
+      "telefone" : "(21) 2556-1890",
+      "urlGoogle" : "https://maps.google.com/?cid=15613083141672439075",
+      "userId" : "1145408352190021",
+      "userName" : "Lucius Pascale",
+      "userPhoto" : "http://graph.facebook.com/1145408352190021/picture?width=270&height=270",
+      "visitas" : {
+        "d2017" : {
+          "d4" : {
+            "d28" : 0
+          }
+        }
+      },
+      "votos" : 0,
+      "votosCore" : ""
+    },
+    "-KUnuyB08oh0-BW1Sh0S" : {
+      "atracoes" : {
+        "karaoke" : false,
+        "musica" : false,
+        "sinuca" : false,
+        "wifi" : false
+      },
+      "cardapio" : "img/no-photo.png",
+      "cervejas" : {
+        "antartica" : {
+          "p600ml" : 6
+        },
+        "brahma" : {
+          "p600ml" : 5.5
+        },
+        "skol" : {
+          "p600ml" : 5
+        }
+      },
+      "dataAtualizacao" : "19102016 00:00:00",
+      "endereco" : "R. Hugo Gonçalves, 208 - Campo Grande, Rio de Janeiro - RJ, 23087-380, Brasil",
+      "geoLat" : -22.8899083,
+      "geoLng" : -43.55755910000005,
+      "idLocal" : "Ek5SLiBIdWdvIEdvbsOnYWx2ZXMsIDIwOCAtIENhbXBvIEdyYW5kZSwgUmlvIGRlIEphbmVpcm8gLSBSSiwgMjMwODctMzgwLCBCcmFzaWw",
+      "nomeBar" : "Bar do Ludemar",
+      "photoUrl" : [ "img/no-photo.png" ],
+      "telefone" : "Indefinido",
+      "urlGoogle" : "https://maps.google.com/?q=R.+Hugo+Gon%C3%A7alves,+208+-+Campo+Grande,+Rio+de+Janeiro+-+RJ,+23087-380,+Brasil&ftid=0x9be160f9b4c837:0x71b82792406482f2",
+      "userId" : "1145408352190021",
+      "userName" : "Lucius Pascale",
+      "userPhoto" : "http://graph.facebook.com/1145408352190021/picture?width=270&height=270",
+      "visitas" : {
+        "d2017" : {
+          "d4" : {
+            "d28" : 0
+          }
+        }
+      },
+      "votos" : 0,
+      "votosCore" : ""
+    },
+    "-KWT11jTsO_yfTQZcpST" : {
+      "atracoes" : {
+        "karaoke" : false,
+        "musica" : false,
+        "sinuca" : false,
+        "wifi" : false
+      },
+      "cardapio" : "img/no-photo.png",
+      "cervejas" : {
+        "heineken" : {
+          "p600ml" : 5
+        }
+      },
+      "dataAtualizacao" : "10102016 14:12:24",
+      "endereco" : "R. Bento Gonçalves, 559 - Encantado, Rio de Janeiro - RJ, 20770-400, Brasil",
+      "geoLat" : -22.89397499999999,
+      "geoLng" : -43.300838,
+      "idLocal" : "ChIJE3i8BBB9mQAR16DqAMjdeZg",
+      "nomeBar" : "Bar Xodó do Encantado",
+      "photoUrl" : [ "img/no-photo.png" ],
+      "telefone" : "(21) 98076-1992",
+      "urlGoogle" : "https://maps.google.com/?cid=10987056617025609943",
+      "userId" : "10209541598675284",
+      "userName" : "Israel Neves",
+      "userPhoto" : "http://graph.facebook.com/10209541598675284/picture?width=270&height=270",
+      "visitas" : {
+        "d2017" : {
+          "d4" : {
+            "d28" : 0
+          }
+        }
+      },
+      "votos" : 1,
+      "votosCore" : ",10209541598675284-1"
+    },
+    "-KWs00EgX4ohom4cb7Yx" : {
+      "atracoes" : {
+        "karaoke" : false,
+        "musica" : false,
+        "sinuca" : false,
+        "wifi" : false
+      },
+      "cardapio" : "img/no-photo.png",
+      "cervejas" : {
+        "antartica" : {
+          "p350ml" : 5
+        },
+        "bohemia" : {
+          "p350ml" : 5
+        },
+        "skol" : {
+          "p350ml" : 5
+        }
+      },
+      "dataAtualizacao" : "18112016 13:18:02",
+      "endereco" : "R. Xavier da Silveira, 78 - Loja B - Copacabana, Rio de Janeiro - RJ, 22061-011, Brasil",
+      "geoLat" : -22.9765471,
+      "geoLng" : -43.19133039999997,
+      "idLocal" : "ChIJ1y5A9UDVmwARG0a4ir2sLys",
+      "nomeBar" : " Choperia Tipicamente",
+      "photoUrl" : [ "https://lh5.googleusercontent.com/-mDstaNqk8WA/WBoYT0uKjkI/AAAAAAAAFg0/NfjbpdM3b4AzLFeCjEsKk0LLn6xmokvBQCLIB/w400-h400-k/" ],
+      "telefone" : "(21) 3268-4149",
+      "urlGoogle" : "https://maps.google.com/?cid=3111895797612430875",
+      "userId" : "1145408352190021",
+      "userName" : "Lucius Pascale",
+      "userPhoto" : "http://graph.facebook.com/1145408352190021/picture?width=270&height=270",
+      "visitas" : {
+        "d2017" : {
+          "d4" : {
+            "d28" : 0
+          }
+        }
+      },
+      "votos" : 0,
+      "votosCore" : ""
+    },
+    "-KX6NJLy5h-OJdy0FbOO" : {
+      "atracoes" : {
+        "karaoke" : false,
+        "musica" : false,
+        "sinuca" : false,
+        "wifi" : false
+      },
+      "cardapio" : "img/no-photo.png",
+      "cervejas" : {
+        "antartica" : {
+          "p600ml" : 7.5
+        },
+        "brahma" : {
+          "p600ml" : 7
+        },
+        "skol" : {
+          "p600ml" : 6.5
+        }
+      },
+      "dataAtualizacao" : "21112016 12:54:08",
+      "endereco" : "R. Xavier da Silveira, 76 - Copacabana, Rio de Janeiro - RJ, 22061-010, Brasil",
+      "geoLat" : -22.976487,
+      "geoLng" : -43.19130869999998,
+      "idLocal" : "ChIJOc7d80DVmwARl9XEilus8JE",
+      "nomeBar" : "May Flower",
+      "photoUrl" : [ "img/no-photo.png" ],
+      "telefone" : "Indefinido",
+      "urlGoogle" : "https://maps.google.com/?q=R.+Xavier+da+Silveira,+76+-+Copacabana,+Rio+de+Janeiro+-+RJ,+22061-010,+Brasil&ftid=0x9bd540f3ddce39:0x91f0ac5b8ac4d597",
+      "userId" : "1145408352190021",
+      "userName" : "Lucius Pascale",
+      "userPhoto" : "http://graph.facebook.com/1145408352190021/picture?width=270&height=270",
+      "visitas" : {
+        "d2017" : {
+          "d4" : {
+            "d28" : 0
+          }
+        }
+      },
+      "votos" : 0,
+      "votosCore" : ""
+    },
+    "-KX6eYGjoECsYDmHjaRc" : {
+      "atracoes" : {
+        "karaoke" : false,
+        "musica" : false,
+        "sinuca" : false,
+        "wifi" : false
+      },
+      "cardapio" : "img/no-photo.png",
+      "cervejas" : {
+        "antartica" : {
+          "p600ml" : 9
+        },
+        "bohemia" : {
+          "p600ml" : 9
+        },
+        "brahma" : {
+          "p600ml" : 6
+        },
+        "heineken" : {
+          "p600ml" : 6
+        },
+        "skol" : {
+          "p600ml" : 6
+        }
+      },
+      "dataAtualizacao" : "21112016 14:13:47",
+      "endereco" : "Boulevard 28 de Setembro, 234 - Vila Isabel, Rio de Janeiro - RJ, 20551-031, Brasil",
+      "geoLat" : -22.9151569,
+      "geoLng" : -43.243876099999966,
+      "idLocal" : "ChIJYdKptnF-mQAR5FnMs_WzB0Q",
+      "nomeBar" : "Bar star",
+      "photoUrl" : [ "img/no-photo.png" ],
+      "telefone" : "Indefinido",
+      "urlGoogle" : "https://maps.google.com/?q=Boulevard+28+de+Setembro,+234+-+Vila+Isabel,+Rio+de+Janeiro+-+RJ,+20551-031,+Brasil&ftid=0x997e71b6a9d261:0x4407b3f5b3cc59e4",
+      "userId" : "1145408352190021",
+      "userName" : "Lucius Pascale",
+      "userPhoto" : "http://graph.facebook.com/1145408352190021/picture?width=270&height=270",
+      "visitas" : {
+        "d2017" : {
+          "d4" : {
+            "d30" : 1
+          },
+          "d6" : {
+            "d14" : 3,
+            "d27" : 0
+          }
+        }
+      },
+      "votos" : 0,
+      "votosCore" : ""
+    },
+    "-KX6gESoOjEh0Bcj6qwW" : {
+      "atracoes" : {
+        "karaoke" : false,
+        "musica" : false,
+        "sinuca" : false,
+        "wifi" : false
+      },
+      "cardapio" : "img/no-photo.png",
+      "cervejas" : {
+        "antartica" : {
+          "p600ml" : 9.9
+        },
+        "bohemia" : {
+          "p600ml" : 11.9
+        }
+      },
+      "dataAtualizacao" : "21112016 14:21:10",
+      "endereco" : "Boulevard 28 de Setembro, 238 - Vila Isabel, Rio de Janeiro - RJ, 20551-070, Brasil",
+      "geoLat" : -22.9152764,
+      "geoLng" : -43.24411120000002,
+      "idLocal" : "ChIJh1HDynF-mQARmMVmE39xHZk",
+      "nomeBar" : "Petisco da Vila",
+      "photoUrl" : [ "https://lh5.googleusercontent.com/-JGGEh62xxqU/WBnwjP7PceI/AAAAAAAACsA/ww1wteA8gKcMph0iHfLu7lQAqAOLK1h-ACLIB/w400-h400-k/" ],
+      "telefone" : "(21) 2576-6321",
+      "urlGoogle" : "https://scontent.fsdu8-2.fna.fbcdn.net/v/t1.0-9/389764_336416979739038_1165681709_n.jpg?oh=c657b49d3aad9a6602d17f8932cd7a0e&oe=59115855",
+      "userId" : "1145408352190021",
+      "userName" : "Lucius Pascale",
+      "userPhoto" : "http://graph.facebook.com/1145408352190021/picture?width=270&height=270",
+      "visitas" : {
+        "d2017" : {
+          "d4" : {
+            "d28" : 0
+          },
+          "d6" : {
+            "d14" : 8,
+            "d16" : 2
+          }
+        }
+      },
+      "votos" : 0,
+      "votosCore" : ""
+    }
+  },
+  "modelos" : {
+    "marcas" : [ null, "antartica", "brahma", "skol", "bohemia", "stellaArtois", "heineken", "amstel", "budweiser", "miller", "proibida", "corona", "nortena", "quilmes", "paulaner", "devassa", "itaipava", "eisenbahn", "antarticaOriginal", "sol", "kaiser", "brahmaExtra", "cerpa" ],
+    "tamanhos" : [ null, "p269ml", "p300ml", "p355ml", "p473ml", "p550ml", "p600ml", "p1000ml", "p275ml", "p310ml", "p990ml", "p710ml" ],
+    "tipos" : [ null, "artesanal", "pilsen" ]
+  },
+  "report" : {
+    "-KmEVez9s7eMdI4NTwe9" : {
+      "comentario" : "wqeq",
+      "data" : "Junho 9º 2017, 9:58:44 pm",
+      "idBar" : "-KPG1Cerdm9sFjRidTkb"
+    },
+    "-KmEW0FaJqro_Ml0UY9z" : {
+      "comentario" : "54",
+      "data" : "Junho 9º 2017, 10:00:15 pm",
+      "idBar" : "-KPG1Cerdm9sFjRidTkb"
+    },
+    "-KmJETENpTmsOf1b8ia7" : {
+      "comentario" : "Este bar está com a cerveja Antártica com valor errado está 8 e o preço é 9",
+      "data" : "Junho 10º 2017, 8:01:41 pm",
+      "idBar" : "-KPG1Cerdm9sFjRidTra"
+    },
+    "-KmMtKPUTqRbpentDuiN" : {
+      "comentario" : "Este bar não existe",
+      "data" : "Junho 11º 2017, 1:03:27 pm",
+      "idBar" : "-KPG1Cerdm9sFjRidTra"
+    },
+    "-KmiZ00mGTOFxiIsIKwo" : {
+      "comentario" : "Tem ajejabjfjshahs",
+      "data" : "Junho 15º 2017, 10:41:37 pm",
+      "idBar" : "-KS2RAxd6zXMchGQgNEk"
+    },
+    "-KnlngbOWLUF1DuIWp64" : {
+      "comentario" : "",
+      "data" : "Junho 29º 2017, 12:04:37 am",
+      "idBar" : "-KS-lL-rFi2bdRrgLE8I"
+    }
+  },
+  "validar" : {
+    "-KltfsRdPkKcahLdKOgC" : {
+      "atracoes" : {
+        "karaoke" : false,
+        "musica" : true,
+        "sinuca" : false,
+        "wifi" : false
+      },
+      "cervejas" : {
+        "antartica" : {
+          "p600ml" : 43.53
+        }
+      },
+      "dataAtualizacao" : "05062017 16:16:04",
+      "endereco" : "R. Caruaru, 200 - Grajau, Rio de Janeiro - RJ, 20560-215, Brasil",
+      "geoLat" : -22.9196036,
+      "geoLng" : -43.26467230000003,
+      "idLocal" : "ChIJHc7zLul9mQAROo7ZjeEJEhE",
+      "nomeBar" : "dfwefrwerfwerwer",
+      "photoUrl" : "",
+      "telefone" : "(23) 4234-523455",
+      "urlGoogle" : "https://maps.google.com/?q=R.+Caruaru,+200+-+Grajau,+Rio+de+Janeiro+-+RJ,+20560-215,+Brasil&ftid=0x997de92ef3ce1d:0x111209e18dd98e3a",
+      "userId" : "facebook.com",
+      "userName" : "Israel Neves",
+      "userPhoto" : "http://graph.facebook.com/facebook.com/picture?width=270&height=270",
+      "votos" : 0,
+      "votosCore" : ""
+    },
+    "-KmJHeyRgoy6mqIQ72bD" : {
+      "atracoes" : {
+        "karaoke" : true,
+        "musica" : true,
+        "sinuca" : true,
+        "wifi" : true
+      },
+      "cervejas" : {
+        "amstel" : {
+          "p1000ml" : 5,
+          "p269ml" : 5,
+          "p275ml" : 5,
+          "p300ml" : 5,
+          "p310ml" : 5,
+          "p355ml" : 5,
+          "p473ml" : 5,
+          "p550ml" : 5,
+          "p600ml" : 5,
+          "p710ml" : 5,
+          "p990ml" : 5
+        },
+        "antartica" : {
+          "p1000ml" : 5,
+          "p269ml" : 5,
+          "p275ml" : 5,
+          "p300ml" : 5,
+          "p310ml" : 5,
+          "p355ml" : 5,
+          "p473ml" : 5,
+          "p550ml" : 5,
+          "p600ml" : 5,
+          "p710ml" : 5,
+          "p990ml" : 5
+        },
+        "antarticaOriginal" : {
+          "p1000ml" : 5,
+          "p269ml" : 5,
+          "p275ml" : 5,
+          "p300ml" : 5,
+          "p310ml" : 5,
+          "p355ml" : 5,
+          "p473ml" : 5,
+          "p550ml" : 5,
+          "p600ml" : 5,
+          "p710ml" : 5,
+          "p990ml" : 5
+        },
+        "bohemia" : {
+          "p1000ml" : 5,
+          "p269ml" : 5,
+          "p275ml" : 5,
+          "p300ml" : 5,
+          "p310ml" : 5,
+          "p355ml" : 80,
+          "p473ml" : 5,
+          "p550ml" : 6,
+          "p600ml" : 6,
+          "p710ml" : 6,
+          "p990ml" : 6
+        },
+        "brahma" : {
+          "p1000ml" : 6,
+          "p269ml" : 6,
+          "p275ml" : 6,
+          "p300ml" : 6,
+          "p310ml" : 6,
+          "p355ml" : 6,
+          "p473ml" : 6,
+          "p550ml" : 6,
+          "p600ml" : 6,
+          "p710ml" : 6,
+          "p990ml" : 6
+        },
+        "brahmaExtra" : {
+          "p1000ml" : 6,
+          "p269ml" : 6,
+          "p275ml" : 6,
+          "p300ml" : 6,
+          "p310ml" : 6,
+          "p355ml" : 6,
+          "p473ml" : 6,
+          "p550ml" : 6,
+          "p600ml" : 6,
+          "p710ml" : 6,
+          "p990ml" : 6
+        },
+        "budweiser" : {
+          "p1000ml" : 6,
+          "p269ml" : 6,
+          "p275ml" : 6,
+          "p300ml" : 7,
+          "p310ml" : 8,
+          "p355ml" : 9,
+          "p473ml" : 10,
+          "p550ml" : 5,
+          "p600ml" : 5,
+          "p710ml" : 8,
+          "p990ml" : 9
+        },
+        "cerpa" : {
+          "p1000ml" : 4,
+          "p269ml" : 4,
+          "p275ml" : 4,
+          "p300ml" : 67.89,
+          "p310ml" : 6,
+          "p355ml" : 3,
+          "p550ml" : 9,
+          "p600ml" : 99.99,
+          "p710ml" : 10,
+          "p990ml" : 9
+        },
+        "corona" : {
+          "p1000ml" : 9,
+          "p269ml" : 9,
+          "p275ml" : 9,
+          "p300ml" : 10,
+          "p310ml" : 9,
+          "p355ml" : 5,
+          "p473ml" : 5,
+          "p550ml" : 5,
+          "p600ml" : 5,
+          "p710ml" : 5,
+          "p990ml" : 6
+        },
+        "devassa" : {
+          "p1000ml" : 7,
+          "p269ml" : 8,
+          "p275ml" : 9,
+          "p300ml" : 5,
+          "p310ml" : 6,
+          "p355ml" : 3,
+          "p473ml" : 4,
+          "p550ml" : 9,
+          "p600ml" : 8,
+          "p710ml" : 8,
+          "p990ml" : 7
+        },
+        "eisenbahn" : {
+          "p1000ml" : 3,
+          "p269ml" : 4,
+          "p275ml" : 5,
+          "p300ml" : 6,
+          "p310ml" : 8,
+          "p355ml" : 7,
+          "p473ml" : 9,
+          "p550ml" : 9,
+          "p600ml" : 9,
+          "p710ml" : 9,
+          "p990ml" : 9
+        },
+        "heineken" : {
+          "p1000ml" : 10,
+          "p269ml" : 10,
+          "p275ml" : 9,
+          "p300ml" : 7,
+          "p310ml" : 67.99,
+          "p355ml" : 5,
+          "p550ml" : 6,
+          "p600ml" : 4,
+          "p710ml" : 7,
+          "p990ml" : 8
+        },
+        "itaipava" : {
+          "p1000ml" : 4,
+          "p269ml" : 5,
+          "p275ml" : 7,
+          "p300ml" : 8,
+          "p310ml" : 9,
+          "p355ml" : 3,
+          "p473ml" : 6,
+          "p550ml" : 7,
+          "p600ml" : 8,
+          "p990ml" : 9
+        },
+        "kaiser" : {
+          "p1000ml" : 5,
+          "p269ml" : 5,
+          "p275ml" : 5,
+          "p300ml" : 6,
+          "p310ml" : 6,
+          "p355ml" : 8,
+          "p473ml" : 8,
+          "p550ml" : 6,
+          "p600ml" : 6,
+          "p710ml" : 5,
+          "p990ml" : 6
+        },
+        "miller" : {
+          "p1000ml" : 6,
+          "p269ml" : 7,
+          "p275ml" : 8,
+          "p300ml" : 9,
+          "p310ml" : 7,
+          "p355ml" : 6,
+          "p473ml" : 5,
+          "p550ml" : 5,
+          "p600ml" : 5,
+          "p710ml" : 5,
+          "p990ml" : 5
+        },
+        "nortena" : {
+          "p1000ml" : 5,
+          "p269ml" : 5,
+          "p275ml" : 6,
+          "p300ml" : 6,
+          "p310ml" : 7,
+          "p355ml" : 7,
+          "p473ml" : 8,
+          "p550ml" : 8,
+          "p600ml" : 5,
+          "p710ml" : 5,
+          "p990ml" : 5
+        },
+        "paulaner" : {
+          "p1000ml" : 5,
+          "p269ml" : 5,
+          "p275ml" : 6,
+          "p300ml" : 6,
+          "p310ml" : 7,
+          "p355ml" : 7,
+          "p473ml" : 8,
+          "p550ml" : 8,
+          "p600ml" : 5,
+          "p710ml" : 5,
+          "p990ml" : 6
+        },
+        "proibida" : {
+          "p1000ml" : 6,
+          "p269ml" : 7,
+          "p275ml" : 7,
+          "p300ml" : 8,
+          "p310ml" : 8,
+          "p355ml" : 5,
+          "p473ml" : 5,
+          "p550ml" : 6,
+          "p600ml" : 6,
+          "p710ml" : 7,
+          "p990ml" : 7
+        },
+        "quilmes" : {
+          "p1000ml" : 8,
+          "p269ml" : 8,
+          "p275ml" : 5,
+          "p300ml" : 5,
+          "p310ml" : 6,
+          "p355ml" : 6,
+          "p473ml" : 7,
+          "p550ml" : 7,
+          "p600ml" : 8,
+          "p710ml" : 8,
+          "p990ml" : 5
+        },
+        "skol" : {
+          "p1000ml" : 5,
+          "p269ml" : 6,
+          "p275ml" : 6,
+          "p300ml" : 7,
+          "p310ml" : 7,
+          "p355ml" : 8,
+          "p473ml" : 8,
+          "p550ml" : 5,
+          "p600ml" : 5,
+          "p710ml" : 6,
+          "p990ml" : 6
+        },
+        "sol" : {
+          "p1000ml" : 7,
+          "p269ml" : 7,
+          "p275ml" : 8,
+          "p300ml" : 8,
+          "p310ml" : 5,
+          "p355ml" : 5,
+          "p473ml" : 6,
+          "p550ml" : 6,
+          "p600ml" : 7,
+          "p710ml" : 7,
+          "p990ml" : 8
+        },
+        "stellaArtois" : {
+          "p1000ml" : 8,
+          "p269ml" : 5,
+          "p275ml" : 5,
+          "p300ml" : 6,
+          "p310ml" : 6,
+          "p355ml" : 7,
+          "p473ml" : 7,
+          "p550ml" : 8,
+          "p600ml" : 8,
+          "p710ml" : 5,
+          "p990ml" : 5
+        }
+      },
+      "dataAtualizacao" : "10062017 20:15:40",
+      "endereco" : "R. Gambia, 21 - Taquara, Rio de Janeiro - RJ, 22775-400, Brasil",
+      "geoLat" : -22.9515273,
+      "geoLng" : -43.37487920000001,
+      "idLocal" : "Ej9SLiBHYW1iaWEsIDIxIC0gVGFxdWFyYSwgUmlvIGRlIEphbmVpcm8gLSBSSiwgMjI3NzUtNDAwLCBCcmFzaWw",
+      "nomeBar" : "Bar do Lampião",
+      "photoUrl" : "",
+      "telefone" : "(21) 9701-13300_",
+      "urlGoogle" : "https://maps.google.com/?q=R.+Gambia,+21+-+Taquara,+Rio+de+Janeiro+-+RJ,+22775-400,+Brasil&ftid=0x9bd90c5719cc9d:0xae0f4bda8e749bbe",
+      "userId" : "facebook.com",
+      "userName" : "Lucius Pascale",
+      "userPhoto" : "http://graph.facebook.com/facebook.com/picture?width=270&height=270",
+      "votos" : 0,
+      "votosCore" : ""
+    }
+  }
+}

@@ -1,5 +1,6 @@
 const express = require('express')
-const app = express()
+const app = express();
+const fs = require('fs');
 app.use(express.static('public'));
 
   var mongodb = require('mongodb');
@@ -20,6 +21,7 @@ var initDb = function(callback) {
   });
 };
 initDb(function(err){console.log(err);});
+
 app.get('/api', function (req, res) {
   	  if (!db) {
 initDb(function(err){console.log(err);});
@@ -38,6 +40,23 @@ initDb(function(err){console.log(err);});
     res.send('Error DB');
   }
 })
+
+app.get('/db', function (req, res) {
+	var banco = JSON.parse(fs.readFileSync('banco.json', 'UTF-8'));
+	let tempArr = [];
+	var cont = 0;
+	for (let a in banco.bares){
+		cont++;
+		tempArr.push(banco.bares[a]);
+	}	
+	var temp = tempArr[parseInt(Math.random()*cont)];
+	res.jsonp(temp);
+});
+
+app.get('/dball', function (req, res) {
+	var banco = JSON.parse(fs.readFileSync('banco.json', 'UTF-8'));
+	res.jsonp(banco);
+});
  
 
 
