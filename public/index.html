@@ -61,8 +61,12 @@
     </div>
     <div class="collapse navbar-collapse" id="myNavbar">
       <ul class="nav navbar-nav">
-        <li class="active"><a href="#!showApi" >API</a></li>
-        <li><a href="#!bar" >Bar</a></li>
+        <li>
+		<a href="#!showApi" >API</a>
+		</li>
+        <li>
+		<a href="#!bar">Bar</a>
+		</li>
       </ul>
       <ul class="nav navbar-nav navbar-right">
         <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
@@ -102,23 +106,15 @@ app.config(function($routeProvider) {
         template : "<h1>Main</h1><p>Selecione o link</p>"
     });
 });
-app.controller('myApi', function($scope,$location) {
-  $.ajax({
-    url: location.origin+"/api",
-    type: "GET",
-	success : function (res){
-	$("#api").html(JSON.stringify(res));
-	}
-})
+app.controller('myApi', function($scope,$location,$http) {
+  $http.get(location.origin+"/api").then(function (response) {
+	$scope.api = JSON.stringify(response.data);
+  });
 });
-app.controller('myBar', function($scope,$location) {
-  $.ajax({
-    url: location.origin+"/db",
-    type: "GET",
-	success : function (res){
-	$("#bar").html(JSON.stringify(res));
-	}
-})
+app.controller('myBar', function($scope,$location,$http) {
+  $http.get(location.origin+"/db").then(function (response) {
+	$scope.bar = JSON.stringify(response.data);
+  });
 });
 
 </script>
