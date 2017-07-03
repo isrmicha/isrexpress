@@ -47,7 +47,7 @@
     }
   </style>
 </head>
-<body ng-app="myApp" ng-controller="myCtrl">
+<body ng-app="myApp">
 
 <nav class="navbar navbar-inverse">
   <div class="container-fluid">
@@ -62,7 +62,7 @@
     <div class="collapse navbar-collapse" id="myNavbar">
       <ul class="nav navbar-nav">
         <li class="active"><a href="#!showApi" >API</a></li>
-        <li><a href="#!tomato" >Tomato</a></li>
+        <li><a href="#!bar" >Bar</a></li>
       </ul>
       <ul class="nav navbar-nav navbar-right">
         <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
@@ -91,21 +91,36 @@ var app = angular.module("myApp", ["ngRoute"]);
 app.config(function($routeProvider) {
     $routeProvider
     .when("/showApi", {
-        templateUrl : 'showApi.html'
+        templateUrl : 'showApi.html',
+		controller : 'myApi'
     })
-    .when("/tomato", {
-        template : "<h1>Tomato</h1><p>Tomatoes contain around 95% water.</p>"
+    .when("/bar", {
+        templateUrl : 'showBar.html',
+		controller : 'myBar'
     })
     .otherwise({
         template : "<h1>Main</h1><p>Selecione o link</p>"
     });
 });
-app.controller('myCtrl', function($scope,$location) {
- $scope.$on('$viewContentLoaded', function(){
-   
-  });
-
+app.controller('myApi', function($scope,$location) {
+  $.ajax({
+    url: location.origin+"/api",
+    type: "GET",
+	success : function (res){
+	$("#api").html(JSON.stringify(res));
+	}
+})
 });
+app.controller('myBar', function($scope,$location) {
+  $.ajax({
+    url: location.origin+"/db",
+    type: "GET",
+	success : function (res){
+	$("#bar").html(JSON.stringify(res));
+	}
+})
+});
+
 </script>
 </body>
 </html>
