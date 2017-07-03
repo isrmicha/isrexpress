@@ -9,6 +9,20 @@
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
   <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.min.js"></script>
 <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular-route.js"></script>
+<script src="https://www.gstatic.com/firebasejs/3.6.6/firebase.js"></script>
+<script src="https://cdn.firebase.com/libs/angularfire/2.3.0/angularfire.min.js"></script>
+<script>
+  // Initialize Firebase
+  var config = {
+    apiKey: "AIzaSyDkFs8Vza6jL5ySBnVE4Y07UQ3qT2aHc-M",
+    authDomain: "israpi-f65c8.firebaseapp.com",
+    databaseURL: "https://israpi-f65c8.firebaseio.com",
+    projectId: "israpi-f65c8",
+    storageBucket: "",
+    messagingSenderId: "474503024358"
+  };
+  firebase.initializeApp(config);
+  </script>
   <style>
     /* Remove the navbar's default margin-bottom and rounded borders */ 
     .navbar {
@@ -69,7 +83,7 @@
 		</li>
       </ul>
       <ul class="nav navbar-nav navbar-right">
-        <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+        <li><a href="#!login"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
       </ul>
     </div>
   </div>
@@ -91,30 +105,46 @@
   <p>Todos os direitos reservados.</p>
 </footer>
 <script>
-var app = angular.module("myApp", ["ngRoute"]);
+var app = angular.module("myApp", ["ngRoute","firebase"]);
 app.config(function($routeProvider) {
     $routeProvider
     .when("/showApi", {
         templateUrl : 'showApi.html',
-		controller : 'myApi'
+		controller : 'apiCtrl'
     })
     .when("/bar", {
         templateUrl : 'showBar.html',
-		controller : 'myBar'
+		controller : 'barCtrl'
+    })
+	   .when("/login", {
+        templateUrl : 'login.html',
+		controller : 'loginCtrl'
     })
     .otherwise({
         template : "<h1>Main</h1><p>Selecione o link</p>"
     });
 });
-app.controller('myApi', function($scope,$location,$http) {
+app.controller('apiCtrl', function($scope,$location,$http) {
   $http.get(location.origin+"/api").then(function (response) {
 	$scope.api = JSON.stringify(response.data);
   });
 });
-app.controller('myBar', function($scope,$location,$http) {
+app.controller('barCtrl', function($scope,$location,$http) {
   $http.get(location.origin+"/db").then(function (response) {
 	$scope.bar = JSON.stringify(response.data);
   });
+});
+app.controller('loginCtrl', function($scope,$firebaseAuth) {
+  var auth = $firebaseAuth();
+  $scope.logar = function () {
+      console.log("Tentando login");
+  auth.$signInWithPopup("google").then(function(firebaseUser) {
+    console.log("Signed in as:", firebaseUser.user);
+	$scope.firebaseUser = firebaseUser.user;
+  }).catch(function(error) {
+    console.log("Authentication failed:", error);
+  });
+  }
 });
 
 </script>
