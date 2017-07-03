@@ -28,6 +28,10 @@
     
     /* Set black background color, white text and some padding */
     footer {
+	position:absolute;
+	right:0px;
+	left:0px;
+	bottom:0px;
       background-color: #555;
       color: white;
       padding: 15px;
@@ -57,10 +61,8 @@
     </div>
     <div class="collapse navbar-collapse" id="myNavbar">
       <ul class="nav navbar-nav">
-        <li class="active"><a href="#">Home</a></li>
-        <li><a href="#">About</a></li>
-        <li><a href="#">Projects</a></li>
-        <li><a href="#">Contact</a></li>
+        <li class="active"><a href="#!banana">Main</a></li>
+        <li>  <a href="#!tomato">Tomato</a></li>
       </ul>
       <ul class="nav navbar-nav navbar-right">
         <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
@@ -71,23 +73,10 @@
   
 <div class="container-fluid text-center">    
   <div class="row content">
-    <div class="col-sm-2 sidenav">
-     <p><a href="#/!">Main</a></p>
-      <p> <a href="#!banana">Banana</a></p>
-      <p> <a href="#!tomato">Tomato</a></p>
-    </div>
-    <div class="col-sm-8 text-left"> 
-
+    <div class="col-sm-12 text-left"> 
 <div ng-view></div>
     </div>
-    <div class="col-sm-2 sidenav">
-      <div class="well">
-        <p>ADS</p>
-      </div>
-      <div class="well">
-        <p>ADS</p>
-      </div>
-    </div>
+    
   </div>
 </div>
 
