@@ -1,0 +1,14 @@
+<h1>ShowApi</h1>
+<p id='api'></p>
+<script>
+console.log('tentando ajax');
+  $.ajax({
+    url: location.origin+"/api",
+    type: "GET",
+	success : function (res){
+	$("#api").html(JSON.stringify(res));
+	}
+})
+
+
+</script>

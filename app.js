@@ -1,6 +1,7 @@
 const express = require('express')
 const app = express();
 const fs = require('fs');
+const http = require('http');
 app.set('views', 'public');
 app.engine('html', require('ejs').renderFile);
 app.use(express.static('public'));
@@ -34,7 +35,7 @@ initDb(function(err){console.log(err);});
 		{ $inc: { views: 1 } });
 		 db.collection('banco', function (err, collection) {
             collection.findOne({nome : "views"},function (err, item) {	
-                res.send("Visitas : "+item.views);
+                res.jsonp(item);
             });
         });
 		if (err) console.log(err);
