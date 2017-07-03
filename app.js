@@ -57,7 +57,14 @@ app.get('/dball', function (req, res) {
 	var banco = JSON.parse(fs.readFileSync('banco.json', 'UTF-8'));
 	res.jsonp(banco);
 });
- 
+ app.use((err, req, res, next) => {
+  console.error(err.stack)
+  res.status(500).send('Aconteceu algo errado!');
+})
+ app.use((req, res, next)=> {
+	
+  res.status(404).send("Página não encontrada.");
+})
 
 
 app.listen((process.env.PORT || 5000), function () {
