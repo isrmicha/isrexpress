@@ -94,7 +94,7 @@
    <div class="col-sm-2 text-left"> 
 
     </div>
-    <div class="col-sm-8 text-left"> 
+    <div class="col-sm-8 text-left" style="overflow:auto;"> 
 <div ng-view></div>
     </div>
     
@@ -138,7 +138,7 @@ app.controller('loginCtrl', function($scope,$firebaseAuth,$http) {
 
  $scope.testarAPI = function () {
  console.log("Testando API");
-  $http.get('http://uminhaapi.ddns.net:3000/db').then(function (response) {
+  $http.get('//isrexpress.herokuapp.com/db').then(function (response) {
 	$scope.testeapi = JSON.stringify(response.data);
   });
   }
