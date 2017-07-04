@@ -2,7 +2,11 @@ const express = require('express')
 const app = express();
 const fs = require('fs');
 const http = require('http');
+var cors = require('cors');
+app.use(cors());
 app.set('views', 'public');
+app.set('port', process.env.PORT || 3000);
+app.set('host', process.env.HOST || '0.0.0.0');
 app.engine('html', require('ejs').renderFile);
 app.use(express.static('public'));
 
@@ -67,7 +71,8 @@ app.get('/dball', function (req, res) {
  app.use((req, res, next)=> {
 	res.render('index.html');
 })
-app.listen((process.env.PORT || 3000), function () {
-  console.log('Servidor rodando na porta : '+(process.env.PORT || 3000));
+console.log(app.get('host'));
+app.listen(app.get('port'), app.get('host'), function () {
+  console.log('Servidor rodando na porta : '+app.get('port'));
 })
 

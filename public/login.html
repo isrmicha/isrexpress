@@ -1,3 +1,6 @@
 <h1>Login</h1>
+<button type="button" class="btn btn-primary" ng-click="testarAPI()" >Testar API</button>
 <button type="button" class="btn btn-primary" ng-click="logar()" ng-if="!firebaseUser">Logar Google</button>
+<button type="button" class="btn btn-primary" ng-click="sair()" ng-if="firebaseUser">Sair Google</button>
+<p> {{testeapi | json}}</p>
 <p> {{firebaseUser | json}}</p>

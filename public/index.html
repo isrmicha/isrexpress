@@ -134,16 +134,27 @@ app.controller('barCtrl', function($scope,$location,$http) {
 	$scope.bar = JSON.stringify(response.data);
   });
 });
-app.controller('loginCtrl', function($scope,$firebaseAuth) {
+app.controller('loginCtrl', function($scope,$firebaseAuth,$http) {
+
+ $scope.testarAPI = function () {
+ console.log("Testando API");
+  $http.get('http://uminhaapi.ddns.net:3000/db').then(function (response) {
+	$scope.testeapi = JSON.stringify(response.data);
+  });
+  }
+
   var auth = $firebaseAuth();
   $scope.logar = function () {
-      console.log("Tentando login");
   auth.$signInWithPopup("google").then(function(firebaseUser) {
-    console.log("Signed in as:", firebaseUser.user);
 	$scope.firebaseUser = firebaseUser.user;
   }).catch(function(error) {
     console.log("Authentication failed:", error);
   });
+  }
+   $scope.sair = function () {
+  auth.$signOut();
+  console.log("saiu");
+  $scope.firebaseUser = null;
   }
 });
 
