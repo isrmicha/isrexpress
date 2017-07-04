@@ -84,6 +84,6 @@ app.get('/dball', function (req, res) {
 	res.render('index.html');
 })
 app.listen(app.get('port'), app.get('host'), function () {
-  console.log('Servidor rodando na porta : '+app.get('port'));
+  console.log('Servidor rodando no : '+app.get('host')+":"+app.get('port')+ " com trabalhador "+process.pid);
 })
 }
