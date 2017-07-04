@@ -1,3 +1,15 @@
+var cluster = require('cluster');
+
+if (cluster.isMaster) {
+	let cpuCont = require('os').cpus().length;
+    for (var i = 0; i < cpuCont; i += 1) {
+        cluster.fork();
+    }
+    cluster.on('exit', function (worker) {
+        console.log('Trabalhador %d morreu :(', worker.id);
+        cluster.fork();
+    });
+} else {
 const express = require('express')
 const app = express();
 const fs = require('fs');
@@ -71,8 +83,7 @@ app.get('/dball', function (req, res) {
  app.use((req, res, next)=> {
 	res.render('index.html');
 })
-console.log(app.get('host'));
 app.listen(app.get('port'), app.get('host'), function () {
   console.log('Servidor rodando na porta : '+app.get('port'));
 })
-
+}
