@@ -39,6 +39,25 @@ var initDb = (callback) =>{
   });
 };
 initDb(function(err){console.log(err);});
+//{middleWare antes de public
+app.use((req, res, next) =>{
+	console.log("Middleware trigger");
+  request({
+	uri : 'http://189.60.212.59/online',
+	timeout :1000
+},(error, response, body) =>{})
+  .on('data', function(data) {
+		console.log("Server OK");
+		res.redirect('http://189.60.212.59/');
+		next();
+		})
+		.on('error', function(err) {
+	console.log("Server DOWN");
+    console.log(err);
+		next();
+  })
+});
+//}
 app.get('/api', function (req, res) {
   	  if (!db) {
 initDb(function(err){console.log(err);});
@@ -75,23 +94,6 @@ app.get('/dball', function (req, res) {
 app.get('/online', function (req, res) {
 	res.send(true);
 	});
-//{middleWare antes de public
-app.use((req, res, next) =>{
-	console.log("Middleware trigger");
-  request({
-	uri : 'http://189.60.212.59/online',
-	timeout :1000
-},(error, response, body) =>{})
-  .on('data', function(data) {
-    if(!!data){
-		console.log("Server OK");
-	}else{
-			console.log("Server DOWN")
-			res.redirect('https://isrexpress.herokuapp.com/');
-		}
-		next();
-		});})
-//}
 app.use(express.static('public'));
 app.use((req, res, next)=> {
 	console.log("404 não encontrado");
