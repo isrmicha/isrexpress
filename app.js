@@ -40,23 +40,23 @@ var initDb = (callback) =>{
 };
 initDb(function(err){console.log(err);});
 //{middleWare antes de public
-app.use((req, res, next) =>{
-	console.log("Middleware trigger");
-  request({
-	uri : 'http://189.60.212.59/online',
-	timeout :1000
-},(error, response, body) =>{})
-  .on('data', function(data) {
-		console.log("Server OK");
-		res.redirect('http://189.60.212.59/');
-		next();
-		})
-		.on('error', function(err) {
-	console.log("Server DOWN");
-    console.log(err);
-		next();
-  })
-});
+// app.use((req, res, next) =>{
+	// console.log("Middleware trigger");
+  // request({
+	// uri : 'http://189.60.212.59/online',
+	// timeout :1000
+// },(error, response, body) =>{})
+  // .on('data', function(data) {
+		// console.log("Server OK");
+		// res.redirect('http://189.60.212.59/');
+		// next();
+		// })
+		// .on('error', function(err) {
+	// console.log("Server DOWN");
+    // console.log(err);
+		// next();
+  // })
+// });
 //}
 app.get('/api', function (req, res) {
   	  if (!db) {
