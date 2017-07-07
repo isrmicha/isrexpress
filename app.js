@@ -77,6 +77,7 @@ app.get('/online', function (req, res) {
 	});
 //{middleWare antes de public
 app.use((req, res, next) =>{
+	console.log("Middleware trigger");
   request({
 	uri : 'http://189.60.212.59/online',
 	timeout :1000
@@ -87,7 +88,8 @@ app.use((req, res, next) =>{
 	}else{
 			console.log("Server DOWN")
 			res.redirect('https://isrexpress.herokuapp.com/');
-		}next();
+		}
+		next();
 		});})
 //}
 app.use(express.static('public'));
