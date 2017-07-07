@@ -1,5 +1,4 @@
 var cluster = require('cluster');
-
 if (cluster.isMaster) {
 	let cpuCont = require('os').cpus().length;
     for (var i = 0; i < cpuCont; i += 1) {
@@ -14,20 +13,20 @@ const express = require('express')
 const app = express();
 const fs = require('fs');
 const http = require('http');
+const request = require('request');
+var servidorAtual = "http://189.60.212.59/";
 var cors = require('cors');
+const mongodb = require('mongodb');
 app.use(cors());
 app.set('views', 'public');
 app.set('port', process.env.PORT || 3000);
 app.set('host', process.env.HOST || '0.0.0.0');
 app.engine('html', require('ejs').renderFile);
-app.use(express.static('public'));
-
-  var mongodb = require('mongodb');
   setInterval(function() {
     http.get("https://isrmicha.herokuapp.com/");
 }, 60000*25); // every 25 minutes
 var db = null;
-var initDb = function(callback) {
+var initDb = (callback) =>{
   if (mongodb == null) return;
  var mongoDbUrl = 'mongodb://user:user@ds139942.mlab.com:39942/express';
   mongodb.connect(mongoDbUrl, function(err, conn) {
@@ -40,7 +39,6 @@ var initDb = function(callback) {
   });
 };
 initDb(function(err){console.log(err);});
-
 app.get('/api', function (req, res) {
   	  if (!db) {
 initDb(function(err){console.log(err);});
@@ -77,14 +75,29 @@ app.get('/dball', function (req, res) {
 app.get('/online', function (req, res) {
 	res.send(true);
 	});
- app.use((err, req, res, next) => {
-  console.error(err.stack)
-  res.status(500).send('Aconteceu algo errado!');
-})
- app.use((req, res, next)=> {
-	res.render('index.html');
+//{middleWare antes de public
+app.use((req, res, next) =>{
+  request({
+	uri : 'http://189.60.212.59/online',
+	timeout :1000
+},(error, response, body) =>{})
+  .on('data', function(data) {
+    if(!!data){
+		console.log("Server OK");
+	}else{
+			console.log("Server DOWN")
+			res.redirect('https://isrexpress.herokuapp.com/');
+		}next();
+		});})
+//}
+app.use(express.static('public'));
+app.use((req, res, next)=> {
+	console.log("404 não encontrado");
+res.status(404).send("Não achou")
 })
 app.listen(app.get('port'), app.get('host'), function () {
   console.log('Servidor rodando no : '+app.get('host')+":"+app.get('port')+ " com trabalhador "+process.pid);
 })
 }
+
+

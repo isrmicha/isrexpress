@@ -131,31 +131,31 @@ app.config(function($routeProvider,$httpProvider) {
     });
 });
 app.controller('apiCtrl', function($scope,$location,$http) {
+$(()=>{
   $http.get(location.origin+"/api").then(function (response) {
 	$scope.api = JSON.stringify(response.data);
   });
 });
+});
 app.controller('barCtrl', function($scope,$location,$http) {
+$(()=>{
   $http.get(location.origin+"/db").then(function (response) {
 	$scope.bar = JSON.stringify(response.data);
   });
-  $http.get("//isrexpess.herokuapp.com/online")
-  .then((response)=>{
-	if(response.data)console.log("ONLINE")
-  })
-  .catch((err)=>{console.log("OFFLINE")
-  });
+  $http.get("https://isrexpress.herokuapp.com/online")
+  .then((response)=>console.log("ONLINE"))
+  .catch((err)=>console.log("OFFLINE"));
   
 });
+});
 app.controller('loginCtrl', function($scope,$firebaseAuth,$http) {
-
+$(()=>{
  $scope.testarAPI = function () {
  console.log("Testando API");
   $http.get('//isrexpress.herokuapp.com/db').then((response) => {
 	$scope.testeapi = JSON.stringify(response.data);
   },(err)=>console.log(err));
   }
-
   var auth = $firebaseAuth();
   $scope.logar = () =>{
   auth.$signInWithPopup("google")
@@ -164,12 +164,12 @@ app.controller('loginCtrl', function($scope,$firebaseAuth,$http) {
   })
   .catch((error)=>console.log("Authentication failed:", error))
   }
-  
    $scope.sair = function () {
   auth.$signOut();
   console.log("saiu");
   $scope.firebaseUser = null;
   }
+  });
 });
 
 </script>
