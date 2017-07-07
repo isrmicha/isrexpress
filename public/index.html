@@ -111,7 +111,8 @@
 </footer>
 <script>
 var app = angular.module("myApp", ["ngRoute","firebase"]);
-app.config(function($routeProvider) {
+app.config(function($routeProvider,$httpProvider) {
+    $httpProvider.defaults.timeout = 0;
     $routeProvider
     .when("/showApi", {
         templateUrl : 'showApi.html',
@@ -138,24 +139,32 @@ app.controller('barCtrl', function($scope,$location,$http) {
   $http.get(location.origin+"/db").then(function (response) {
 	$scope.bar = JSON.stringify(response.data);
   });
+  $http.get("//isrexpess.herokuapp.com/online")
+  .then((response)=>{
+	if(response.data)console.log("ONLINE")
+  })
+  .catch((err)=>{console.log("OFFLINE")
+  });
+  
 });
 app.controller('loginCtrl', function($scope,$firebaseAuth,$http) {
 
  $scope.testarAPI = function () {
  console.log("Testando API");
-  $http.get('//isrexpress.herokuapp.com/db').then(function (response) {
+  $http.get('//isrexpress.herokuapp.com/db').then((response) => {
 	$scope.testeapi = JSON.stringify(response.data);
-  });
+  },(err)=>console.log(err));
   }
 
   var auth = $firebaseAuth();
-  $scope.logar = function () {
-  auth.$signInWithPopup("google").then(function(firebaseUser) {
+  $scope.logar = () =>{
+  auth.$signInWithPopup("google")
+  .then((firebaseUser) =>{
 	$scope.firebaseUser = firebaseUser.user;
-  }).catch(function(error) {
-    console.log("Authentication failed:", error);
-  });
+  })
+  .catch((error)=>console.log("Authentication failed:", error))
   }
+  
    $scope.sair = function () {
   auth.$signOut();
   console.log("saiu");

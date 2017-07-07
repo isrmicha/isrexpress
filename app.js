@@ -74,6 +74,9 @@ app.get('/dball', function (req, res) {
 	var banco = JSON.parse(fs.readFileSync('banco.json', 'UTF-8'));
 	res.jsonp(banco);
 });
+app.get('/online', function (req, res) {
+	res.send(true);
+	});
  app.use((err, req, res, next) => {
   console.error(err.stack)
   res.status(500).send('Aconteceu algo errado!');
