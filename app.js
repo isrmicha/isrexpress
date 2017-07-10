@@ -35,29 +35,14 @@ var initDb = (callback) =>{
       callback(err);
       return;
     }
+	console.log("Connectou db");
     db = conn;
   });
 };
 initDb(function(err){console.log(err);});
-//{middleWare antes de public
-// app.use((req, res, next) =>{
-	// console.log("Middleware trigger");
-  // request({
-	// uri : 'http://189.60.212.59/online',
-	// timeout :1000
-// },(error, response, body) =>{})
-  // .on('data', function(data) {
-		// console.log("Server OK");
-		// res.redirect('http://189.60.212.59/');
-		// next();
-		// })
-		// .on('error', function(err) {
-	// console.log("Server DOWN");
-    // console.log(err);
-		// next();
-  // })
-// });
-//}
+app.use((req, res, next) =>{ //Middleware Logger
+ next();
+});
 app.get('/api', function (req, res) {
   	  if (!db) {
 initDb(function(err){console.log(err);});
@@ -91,17 +76,33 @@ app.get('/dball', function (req, res) {
 	var banco = JSON.parse(fs.readFileSync('banco.json', 'UTF-8'));
 	res.jsonp(banco);
 });
-app.get('/online', function (req, res) {
+app.get('/online', function (req, res) { //Verifica status do servidor
 	res.send(true);
 	});
 app.use(express.static('public'));
-app.use((req, res, next)=> {
+app.use((req, res, next)=> { //Middleware 404
 	console.log("404 não encontrado");
-res.status(404).send("Não achou")
+	res.redirect('/');
 })
 app.listen(app.get('port'), app.get('host'), function () {
   console.log('Servidor rodando no : '+app.get('host')+":"+app.get('port')+ " com trabalhador "+process.pid);
 })
 }
 
+
+//{ HTTP REQUEST
+  // request({
+	// uri : 'http://189.60.212.59/online',
+	// timeout :1000
+// },(error, response, body) =>{})
+  // .on('data', function(data) {
+		// console.log("Server OK");
+		// res.redirect('http://189.60.212.59/');
+		// })
+		// .on('error', function(err) {
+	// console.log("Server DOWN");
+    // console.log(err);
+
+  // })
+//}
 
