@@ -1,4 +1,5 @@
 var cluster = require('cluster');
+
 if (cluster.isMaster) {
 	let cpuCont = require('os').cpus().length;
     for (var i = 0; i < cpuCont; i += 1) {
@@ -14,6 +15,7 @@ const app = express();
 const fs = require('fs');
 const http = require('http');
 const request = require('request');
+
 var servidorAtual = "http://189.60.212.59/";
 var cors = require('cors');
 const mongodb = require('mongodb');
@@ -23,8 +25,10 @@ app.set('port', process.env.PORT || 3000);
 app.set('host', process.env.HOST || '0.0.0.0');
 app.engine('html', require('ejs').renderFile);
   setInterval(function() {
-    http.get("https://isrmicha.herokuapp.com/");
-}, 60000*25); // every 25 minutes
+	  console.log("Pingando para não dormir");
+    http.get("https://isrexpress.herokuapp.com/");
+	
+}, 300000); // every 5 minutes
 var db = null;
 var initDb = (callback) =>{
   if (mongodb == null) return;
@@ -35,7 +39,7 @@ var initDb = (callback) =>{
       callback(err);
       return;
     }
-	console.log("Connectou db");
+	console.log(process.pid+ " Connectou Database");
     db = conn;
   });
 };
@@ -86,6 +90,12 @@ app.use((req, res, next)=> { //Middleware 404
 })
 app.listen(app.get('port'), app.get('host'), function () {
   console.log('Servidor rodando no : '+app.get('host')+":"+app.get('port')+ " com trabalhador "+process.pid);
+  // process.stdout.clearLine();
+  // process.stdout.cursorTo(0);
+  // process.stdout.write("Servidor ONLINE com "+workerConnected+"/"+cpuCont+" trabalhadores. \n");
+
+
+//process.stdout.write("\n"); // end the line
 })
 }
 
