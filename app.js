@@ -1,6 +1,12 @@
 var cluster = require('cluster');
 
 if (cluster.isMaster) {
+	const https = require('https');
+		setInterval(function() {
+		console.log("Pingando para não dormir");
+		https.get("https://isrexpress.herokuapp.com/");
+		}, 1000 * 60 * 5); // every 5 minutes
+
 	let cpuCont = require('os').cpus().length;
     for (var i = 0; i < cpuCont; i += 1) {
         cluster.fork();
@@ -13,7 +19,6 @@ if (cluster.isMaster) {
 const express = require('express')
 const app = express();
 const fs = require('fs');
-const http = require('http');
 const request = require('request');
 
 var servidorAtual = "http://189.60.212.59/";
@@ -24,11 +29,6 @@ app.set('views', 'public');
 app.set('port', process.env.PORT || 3000);
 app.set('host', process.env.HOST || '0.0.0.0');
 app.engine('html', require('ejs').renderFile);
-  setInterval(function() {
-	  console.log("Pingando para não dormir");
-    http.get("https://isrexpress.herokuapp.com/");
-	
-}, 300000); // every 5 minutes
 var db = null;
 var initDb = (callback) =>{
   if (mongodb == null) return;
