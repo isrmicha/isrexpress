@@ -9,7 +9,8 @@
 	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular-route.js"></script>
 	<script src="https://www.gstatic.com/firebasejs/3.6.6/firebase.js"></script>
 	<script src="https://cdn.firebase.com/libs/angularfire/2.3.0/angularfire.min.js"></script>
-<script>
+	<script type="text/javascript" src="ngTouch.min.js"></script>
+	<script>
   // Initialize Firebase
   var config = {
     apiKey: "AIzaSyDkFs8Vza6jL5ySBnVE4Y07UQ3qT2aHc-M",
@@ -109,7 +110,7 @@
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
 
 <script>
-var app = angular.module("myApp", ["ngRoute","firebase"]);
+var app = angular.module("myApp", ["ngRoute","firebase","ngTouch"]);
 app.config(function($routeProvider,$httpProvider) {
     $httpProvider.defaults.timeout = 0;
     $routeProvider
@@ -145,12 +146,9 @@ var angulo = 0;
 var Acelerador;
   $scope.keyDown = ()=>{
   Acelerador = setInterval(()=>{
-  angulo+=10;
+  angulo+=5;
   $("#pneu").css({'transform' : 'rotate('+angulo+'deg)'});
-  },50);
-  }
-     $scope.keyUp = function () {
-   clearInterval(Acelerador);
+  },25);
   }
      $scope.mouseLeave = function () {
    clearInterval(Acelerador);
