@@ -123,17 +123,38 @@ app.config(function($routeProvider,$httpProvider) {
     })
 	   .when("/login", {
         templateUrl : 'login.html',
-		controller : 'loginCtrl'
+		
     })
     .otherwise({
-        templateUrl : 'main.html'
+        templateUrl : 'main.html',
+		controller : 'mainCtrl'
     });
 });
+
+   
 app.controller('apiCtrl', function($scope,$location,$http) {
 $(()=>{
   $http.get(location.origin+"/api").then(function (response) {
 	$scope.api = JSON.stringify(response.data);
   });
+});
+});
+app.controller('mainCtrl', function($scope,$location) {
+$(()=>{
+var angulo = 0;
+var Acelerador;
+  $scope.keyDown = ()=>{
+  Acelerador = setInterval(()=>{
+  angulo+=10;
+  $("#pneu").css({'transform' : 'rotate('+angulo+'deg)'});
+  },50);
+  }
+     $scope.keyUp = function () {
+   clearInterval(Acelerador);
+  }
+     $scope.mouseLeave = function () {
+   clearInterval(Acelerador);
+  }
 });
 });
 app.controller('barCtrl', function($scope,$location,$http) {
@@ -168,6 +189,7 @@ $(()=>{
   console.log("saiu");
   $scope.firebaseUser = null;
   }
+
   });
 });
 

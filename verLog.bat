@@ -1,0 +1,1 @@
+start /min heroku logs --tail --app isrexpress

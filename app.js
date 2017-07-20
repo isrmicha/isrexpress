@@ -1,25 +1,27 @@
-var cluster = require('cluster');
+// var cluster = require('cluster');
 
-if (cluster.isMaster) {
-	const https = require('https');
-		setInterval(function() {
-		console.log("Pingando para não dormir");
-		https.get("https://isrexpress.herokuapp.com/");
-		}, 1000 * 60 * 5); // every 5 minutes
+// if (cluster.isMaster) {
+	// const https = require('https');
+		// setInterval(function() {
+		// console.log("Pingando para não dormir");
+		// https.get("https://isrexpress.herokuapp.com/");
+		// }, 1000 * 60 * 5); // every 5 minutes
 
-	let cpuCont = require('os').cpus().length;
-    for (var i = 0; i < cpuCont; i += 1) {
-        cluster.fork();
-    }
-    cluster.on('exit', function (worker) {
-        console.log('Trabalhador %d morreu :(', worker.id);
-        cluster.fork();
-    });
-} else {
+	// let cpuCont = require('os').cpus().length;
+    // for (var i = 0; i < 1; i += 1) {
+        // cluster.fork();
+    // }
+    // cluster.on('exit', function (worker) {
+        // console.log('Trabalhador %d morreu :(', worker.id);
+        // cluster.fork();
+    // });
+// } else {
+const compression = require('compression')
 const express = require('express')
 const app = express();
 const fs = require('fs');
 const request = require('request');
+app.use(compression());
 
 var servidorAtual = "http://189.60.212.59/";
 var cors = require('cors');
@@ -44,10 +46,11 @@ var initDb = (callback) =>{
   });
 };
 initDb(function(err){console.log(err);});
-app.use((req, res, next) =>{ //Middleware Logger
- next();
+app.use((req, res, next)=>{
+   console.log("A new request received at " + Date.now());
+   next();
 });
-app.get('/api', function (req, res) {
+app.use('/api', function (req, res) {
   	  if (!db) {
 initDb(function(err){console.log(err);});
   }
@@ -65,7 +68,7 @@ initDb(function(err){console.log(err);});
     res.send('Error DB');
   }
 })
-app.get('/db', function (req, res) {
+app.use('/db', function (req, res) {
 	var banco = JSON.parse(fs.readFileSync('banco.json', 'UTF-8'));
 	let tempArr = [];
 	var cont = 0;
@@ -76,28 +79,25 @@ app.get('/db', function (req, res) {
 	var temp = tempArr[parseInt(Math.random()*cont)];
 	res.json(temp);
 });
-app.get('/dball', function (req, res) {
+app.use('/dball', function (req, res) {
 	var banco = JSON.parse(fs.readFileSync('banco.json', 'UTF-8'));
 	res.jsonp(banco);
 });
-app.get('/online', function (req, res) { //Verifica status do servidor
+app.use('/online', function (req, res) { //Verifica status do servidor
 	res.send(true);
 	});
-app.use(express.static('public'));
-app.use((req, res, next)=> { //Middleware 404
-	console.log("404 não encontrado");
-	res.redirect('/');
-})
+	app.use(express.static('public'));
+	app.use('/', function (req, res) { //Verifica status do servidor
+	res.send(true);
+	});
 app.listen(app.get('port'), app.get('host'), function () {
   console.log('Servidor rodando no : '+app.get('host')+":"+app.get('port')+ " com trabalhador "+process.pid);
   // process.stdout.clearLine();
   // process.stdout.cursorTo(0);
   // process.stdout.write("Servidor ONLINE com "+workerConnected+"/"+cpuCont+" trabalhadores. \n");
-
-
 //process.stdout.write("\n"); // end the line
 })
-}
+// }
 
 
 //{ HTTP REQUEST
