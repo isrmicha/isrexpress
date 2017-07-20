@@ -1,9 +1,33 @@
 <div class="jumbotron jumbotron-fluid">
   <div class="container">
-	<button type="button" class="btn btn-primary btn-lg btn-block"  ng-touchstart="keyDown()" ng-touchend="mouseLeave()">Acelerar</button>
-	<br>
-	<p style="text-align:center;">
-	<img src="pneu.png" style="width:250px;height:250px;" id="pneu" ng-touchstart="keyDown()" ng-touchend="mouseLeave()">
+  
+  <div class="row content">
+
+	    <div class="col-sm-6" > 
+	<div ng-model-options="{ debounce: 100 }">
+
+  	<p style="text-align:center;">
+	<img src="volante.png" style="width:100px;height:100px;" id="volante" >
 	</p>
+		<hr>
+	{{anguloDirecao}}<br>
+	<input type="range" ng-model="anguloDirecao" min="-90"  max="90" ng-change="mudarVolante(anguloDirecao)">
+
+	</p>
+	</div>
+	<p>
+    </div>
+	    <div class="col-sm-6" > 
+	<p style="text-align:center;">
+	<img src="pneu.png" style="width:100px;height:100px;" id="pneu" ng-touchstart="keyDown()" ng-touchend="mouseLeave()">
+	</p>
+  <hr>
+    </div>
+  </div>
+  
+	<!-- <button type="button" class="btn btn-primary btn-lg btn-block"  ng-touchstart="keyDown()" ng-touchend="mouseLeave()">Acelerar</button> -->
+	<!-- <br> -->
+
+
   </div>
 </div>
